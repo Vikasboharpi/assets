@@ -55,59 +55,59 @@ namespace AssetManagement.API.Controllers
         /// </summary>
         /// <param name="changePasswordDto">Password change details</param>
         /// <returns>Success status</returns>
-        [HttpPost("change-password")]
-        [Authorize]
-        public async Task<ActionResult<ApiResponseDto<bool>>> ChangePassword(
-            [FromBody] ChangePasswordDto changePasswordDto)
-        {
-            if (!ModelState.IsValid)
-            {
-                var errors = ModelState.Values
-                    .SelectMany(v => v.Errors)
-                    .Select(e => e.ErrorMessage)
-                    .ToList();
+        //[HttpPost("change-password")]
+        //[Authorize]
+        //public async Task<ActionResult<ApiResponseDto<bool>>> ChangePassword(
+        //    [FromBody] ChangePasswordDto changePasswordDto)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        var errors = ModelState.Values
+        //            .SelectMany(v => v.Errors)
+        //            .Select(e => e.ErrorMessage)
+        //            .ToList();
 
-                return BadRequest(ApiResponseDto<bool>.ErrorResponse(
-                    "Validation failed", errors));
-            }
+        //        return BadRequest(ApiResponseDto<bool>.ErrorResponse(
+        //            "Validation failed", errors));
+        //    }
 
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
-            if (userIdClaim == null || !int.TryParse(userIdClaim.Value, out var userId))
-            {
-                return Unauthorized(ApiResponseDto<bool>.ErrorResponse("Invalid user token"));
-            }
+        //    var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+        //    if (userIdClaim == null || !int.TryParse(userIdClaim.Value, out var userId))
+        //    {
+        //        return Unauthorized(ApiResponseDto<bool>.ErrorResponse("Invalid user token"));
+        //    }
 
-            var result = await _authService.ChangePasswordAsync(
-                userId, changePasswordDto.CurrentPassword, changePasswordDto.NewPassword);
+        //    var result = await _authService.ChangePasswordAsync(
+        //        userId, changePasswordDto.CurrentPassword, changePasswordDto.NewPassword);
 
-            if (!result.Success)
-            {
-                return BadRequest(result);
-            }
+        //    if (!result.Success)
+        //    {
+        //        return BadRequest(result);
+        //    }
 
-            return Ok(result);
-        }
+        //    return Ok(result);
+        //}
 
         /// <summary>
         /// Get current user information
         /// </summary>
         /// <returns>Current user details</returns>
-        [HttpGet("me")]
-        [Authorize]
-        public ActionResult<ApiResponseDto<object>> GetCurrentUser()
-        {
-            var userInfo = new
-            {
-                Id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value,
-                Name = User.FindFirst(ClaimTypes.Name)?.Value,
-                Email = User.FindFirst(ClaimTypes.Email)?.Value,
-                Role = User.FindFirst(ClaimTypes.Role)?.Value,
-                EmploymentId = User.FindFirst("EmploymentId")?.Value,
-                Department = User.FindFirst("Department")?.Value
-            };
+        //[HttpGet("me")]
+        //[Authorize]
+        //public ActionResult<ApiResponseDto<object>> GetCurrentUser()
+        //{
+        //    var userInfo = new
+        //    {
+        //        Id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value,
+        //        Name = User.FindFirst(ClaimTypes.Name)?.Value,
+        //        Email = User.FindFirst(ClaimTypes.Email)?.Value,
+        //        Role = User.FindFirst(ClaimTypes.Role)?.Value,
+        //        EmploymentId = User.FindFirst("EmploymentId")?.Value,
+        //        Department = User.FindFirst("Department")?.Value
+        //    };
 
-            return Ok(ApiResponseDto<object>.SuccessResponse(userInfo, "User information retrieved"));
-        }
+        //    return Ok(ApiResponseDto<object>.SuccessResponse(userInfo, "User information retrieved"));
+        //}
 
         /// <summary>
         /// Logout (client-side token invalidation)
@@ -124,19 +124,19 @@ namespace AssetManagement.API.Controllers
         }
     }
 
-    public class ChangePasswordDto
-    {
-        [Required(ErrorMessage = "Current password is required")]
-        public string CurrentPassword { get; set; } = string.Empty;
+    //public class ChangePasswordDto
+    //{
+    //    [Required(ErrorMessage = "Current password is required")]
+    //    public string CurrentPassword { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "New password is required")]
-        [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be between 6 and 100 characters")]
-        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]", 
-            ErrorMessage = "Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character")]
-        public string NewPassword { get; set; } = string.Empty;
+    //    [Required(ErrorMessage = "New password is required")]
+    //    [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be between 6 and 100 characters")]
+    //    [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]", 
+    //        ErrorMessage = "Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character")]
+    //    public string NewPassword { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Password confirmation is required")]
-        [Compare("NewPassword", ErrorMessage = "New password and confirmation password do not match")]
-        public string ConfirmNewPassword { get; set; } = string.Empty;
-    }
+    //    [Required(ErrorMessage = "Password confirmation is required")]
+    //    [Compare("NewPassword", ErrorMessage = "New password and confirmation password do not match")]
+    //    public string ConfirmNewPassword { get; set; } = string.Empty;
+    //}
 }

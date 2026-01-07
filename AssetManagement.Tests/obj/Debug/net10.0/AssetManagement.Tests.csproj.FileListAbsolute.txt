@@ -95,9 +95,9 @@ C:\AssetManagement\AssetManagement.Tests\obj\Debug\net10.0\refint\AssetManagemen
 C:\AssetManagement\AssetManagement.Tests\obj\Debug\net10.0\AssetManagement.Tests.pdb
 C:\AssetManagement\AssetManagement.Tests\obj\Debug\net10.0\AssetManagement.Tests.genruntimeconfig.cache
 C:\AssetManagement\AssetManagement.Tests\obj\Debug\net10.0\ref\AssetManagement.Tests.dll
-C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\testhost.exe
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\testhost.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\xunit.abstractions.dll
+C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\testhost.exe
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\xunit.runner.visualstudio.testadapter.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\AssetManagement.Tests.deps.json
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\AssetManagement.Tests.runtimeconfig.json
