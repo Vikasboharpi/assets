@@ -101,7 +101,7 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset Management API V1");
-    c.RoutePrefix = "swagger"; // optional, remove to use root
+    c.RoutePrefix = string.Empty; // optional, remove to use root
 });
 
 // Add custom middleware
