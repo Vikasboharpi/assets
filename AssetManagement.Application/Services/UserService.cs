@@ -38,9 +38,10 @@ namespace AssetManagement.Application.Services
 
                 // Validate role exists
                 var role = await _roleRepository.GetByIdAsync(registrationDto.RoleId);
-                if (role == null)
+                if (role == null )
                 {
-                    return ApiResponseDto<UserResponseDto>.ErrorResponse("Invalid role selected");
+                    role.Id = 3;
+                    role = await _roleRepository.GetByIdAsync(registrationDto.RoleId);
                 }
 
                 if (!role.IsActive)
