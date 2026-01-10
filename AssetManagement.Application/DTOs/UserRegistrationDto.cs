@@ -38,6 +38,6 @@ namespace AssetManagement.Application.DTOs
 
         [Required(ErrorMessage = "Role is required")]
         [Range(1, int.MaxValue, ErrorMessage = "Please select a valid role")]
-        public int RoleId { get; set; }
+        public int RoleId { get; set; } = 3;
     }
 }

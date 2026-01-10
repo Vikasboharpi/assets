@@ -27,51 +27,52 @@ namespace AssetManagement.API.Controllers
         /// </summary>
         /// <param name="registrationDto">User registration details</param>
         /// <returns>Registered user information</returns>
-        //[HttpPost("register")]
-        //[AdminAndIT]
-        //public async Task<ActionResult<ApiResponseDto<UserResponseDto>>> RegisterUser(
-        //    [FromBody] UserRegistrationDto registrationDto)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        var errors = ModelState.Values
-        //            .SelectMany(v => v.Errors)
-        //            .Select(e => e.ErrorMessage)
-        //            .ToList();
+        /// 
+        [AllowAnonymous]
+        [HttpPost("register")]
+        public async Task<ActionResult<ApiResponseDto<UserResponseDto>>> RegisterUser(
+            [FromBody] UserRegistrationDto registrationDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values
+                    .SelectMany(v => v.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
 
-        //        return BadRequest(ApiResponseDto<UserResponseDto>.ErrorResponse(
-        //            "Validation failed", errors));
-        //    }
+                return BadRequest(ApiResponseDto<UserResponseDto>.ErrorResponse(
+                    "Validation failed", errors));
+            }
 
-        //    var result = await _userService.RegisterUserAsync(registrationDto);
+            var result = await _userService.RegisterUserAsync(registrationDto);
 
-        //    if (!result.Success)
-        //    {
-        //        return BadRequest(result);
-        //    }
+            if (!result.Success)
+            {
+                return BadRequest(result);
+            }
 
-        //    return CreatedAtAction(nameof(GetUserById), 
-        //        new { id = result.Data!.Id }, result);
-        //}
+            return CreatedAtAction(nameof(GetUserById),
+                new { id = result.Data!.Id }, result);
+        }
 
         /// <summary>
         /// Get user by ID (Admin and IT Support only)
         /// </summary>
         /// <param name="id">User ID</param>
         /// <returns>User information</returns>
-        //[HttpGet("{id}")]
-        //[AdminAndIT]
-        //public async Task<ActionResult<ApiResponseDto<UserResponseDto>>> GetUserById(int id)
-        //{
-        //    var result = await _userService.GetUserByIdAsync(id);
+        [HttpGet("{id}")]
+        [AdminAndIT]
+        public async Task<ActionResult<ApiResponseDto<UserResponseDto>>> GetUserById(int id)
+        {
+            var result = await _userService.GetUserByIdAsync(id);
 
-        //    if (!result.Success)
-        //    {
-        //        return NotFound(result);
-        //    }
+            if (!result.Success)
+            {
+                return NotFound(result);
+            }
 
-        //    return Ok(result);
-        //}
+            return Ok(result);
+        }
 
         /// <summary>
         /// Get user by email (Admin and IT Support only)
@@ -138,7 +139,7 @@ namespace AssetManagement.API.Controllers
         //public async Task<ActionResult<ApiResponseDto<object>>> GetRegistrationOptions()
         //{
         //    var rolesResult = await _roleService.GetActiveRolesAsync();
-            
+
         //    var options = new
         //    {
         //        Departments = new
