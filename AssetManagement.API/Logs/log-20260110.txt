@@ -1,0 +1,19 @@
+2026-01-10 09:46:19.467 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-10 09:46:20.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-10 09:46:20.353 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-10 09:46:20.353 +05:30 [INF] Hosting environment: Development
+2026-01-10 09:46:20.353 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-10 09:46:21.014 +05:30 [INF] Processing request: GET /
+2026-01-10 09:46:21.195 +05:30 [INF] Response status: 404
+2026-01-10 09:46:21.248 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 956.376ms
+2026-01-10 09:46:21.272 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-10 09:50:11.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-10 09:50:11.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-10 09:50:11.484 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 53.7919ms
+2026-01-10 09:50:11.542 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.7192ms
+2026-01-10 09:50:11.587 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-10 09:50:11.629 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.1807ms
+2026-01-10 11:56:11.985 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-10 11:56:12.023 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 50.5816ms
+2026-01-10 11:56:12.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-10 11:56:12.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.5575ms

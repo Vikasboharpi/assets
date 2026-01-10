@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "AssetManagement.API\\Program.cs",
               "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Program.cs",
               "RelativeToolTip": "AssetManagement.API\\Program.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T09:50:24.493Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "AssetManagement.API\\AssetManagement.API.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-01-07T09:50:20.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:20.012Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "AssetManagement.API\\appsettings.json",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-07T09:50:10.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:10.59Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "AssetManagement.API\\Middleware\\ValidationMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:07.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:07.711Z"
             },
             {
               "$type": "Document",
@@ -118,12 +115,7 @@
               "RelativeToolTip": "AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:04.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2026-01-07T09:50:04.354Z"
             },
             {
               "$type": "Document",
@@ -135,8 +127,7 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\RolesController.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAuwLAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:37:13.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:37:13.085Z"
             },
             {
               "$type": "Document",
@@ -148,8 +139,7 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAmwJ4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:36:19.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:36:19.298Z"
             },
             {
               "$type": "Document",
@@ -161,8 +151,7 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAIwH4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:35:21.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:35:21.594Z"
             },
             {
               "$type": "Document",
@@ -174,8 +163,7 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAIBAAAAAAAAAAAowA4BAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:38:03.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:38:03.091Z"
             },
             {
               "$type": "Document",
@@ -187,8 +175,7 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\AssetsController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwEsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:39:41.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:39:41.529Z"
             },
             {
               "$type": "Document",
@@ -200,8 +187,7 @@
               "RelativeToolTip": ".vs\\AssetManagement\\config\\applicationhost.config",
               "ViewState": "AgIAAG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-07T09:30:37.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:30:37.739Z"
             }
           ]
         }
