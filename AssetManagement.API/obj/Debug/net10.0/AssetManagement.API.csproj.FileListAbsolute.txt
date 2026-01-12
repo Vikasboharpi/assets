@@ -258,6 +258,7 @@ C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\BuildHost-netcore\zh-H
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\BuildHost-netcore\zh-Hant\System.CommandLine.resources.dll
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\appsettings.Development.json
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\appsettings.json
+C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\appsettings.Production.json
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\AssetManagement.API.staticwebassets.endpoints.json
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\AssetManagement.API.exe
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\AssetManagement.API.deps.json
@@ -287,6 +288,7 @@ C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.EntityFramew
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\AssetManagements\AssetManagement.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
@@ -415,10 +417,10 @@ C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\staticwebassets.build.
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\staticwebassets.development.json
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\swae.build.ex.cache
+C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\AssetMan.7E8B1925.Up2Date
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\AssetManagement.API.dll
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\refint\AssetManagement.API.dll
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\AssetManagement.API.pdb
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\AssetManagement.API.genruntimeconfig.cache
 C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\ref\AssetManagement.API.dll
-C:\AssetManagements\AssetManagement.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

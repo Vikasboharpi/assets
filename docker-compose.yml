@@ -1,0 +1,78 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: assetmanagement-db
+    environment:
+      POSTGRES_DB: assetdb
+      POSTGRES_USER: assetuser
+      POSTGRES_PASSWORD: 12345
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db:/docker-entrypoint-initdb.d
+    networks:
+      - assetmanagement-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U assetuser -d assetdb"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Asset Management API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: assetmanagement-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT:-Production}
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__Default=Host=db;Port=5432;Database=assetdb;Username=assetuser;Password=12345
+      - Jwt__Key=bffb4ee664ead0f2e1f67cd739375f14
+      - Jwt__Issuer=AssetManagementAPI
+      - Jwt__Audience=AssetManagementClient
+      - Jwt__ExpiryHours=8
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - assetmanagement-network
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/Logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Nginx Reverse Proxy (Optional)
+  nginx:
+    image: nginx:alpine
+    container_name: assetmanagement-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - api
+    networks:
+      - assetmanagement-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  assetmanagement-network:
+    driver: bridge

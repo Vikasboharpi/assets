@@ -88,21 +88,28 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Add OpenAPI/Swagger
-builder.Services.AddOpenApi();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+// Add OpenAPI/Swagger (only in Development)
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddOpenApi();
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
+}
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
-app.MapOpenApi();
-app.UseSwagger();
-app.UseSwaggerUI(c =>
+if (app.Environment.IsDevelopment())
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset Management API V1");
-    c.RoutePrefix = "swagger"; // optional, remove to use root
-});
+    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset Management API V1");
+        c.RoutePrefix = "swagger";
+    });
+}
 
 // Add custom middleware
 app.UseMiddleware<ExceptionHandlingMiddleware>();
@@ -112,6 +119,8 @@ app.UseHttpsRedirection();
 app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Add Health Check endpoint
 
 app.MapControllers();
 using (var scope = app.Services.CreateScope())
