@@ -1,0 +1,3 @@
+C:\AssetManagements\out\AssetManagement.Domain.dll
+C:\AssetManagements\out\AssetManagement.Domain.deps.json
+C:\AssetManagements\out\AssetManagement.Domain.pdb
