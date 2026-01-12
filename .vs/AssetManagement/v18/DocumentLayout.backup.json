@@ -3,44 +3,92 @@
   "WorkspaceRootPath": "C:\\AssetManagements\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\assetmanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\assetmanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\middleware\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\middleware\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260107062051_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260107062051_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260112035210_initialcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260112035210_initialcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AssetManagements\\AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260107062051_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260107062051_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\logs\\log-20260107.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\logs\\log-20260107.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\middleware\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\middleware\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\mappings\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\mappings\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\assetmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\assetmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\assetmanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\assetmanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AssetManagements\\.vs\\AssetManagement\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -54,36 +102,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Program.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Program.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Program.cs",
-              "RelativeToolTip": "AssetManagement.API\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "20260112035210_InitialCreated.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260112035210_InitialCreated.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260112035210_InitialCreated.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260112035210_InitialCreated.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260112035210_InitialCreated.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:24.493Z",
+              "WhenOpened": "2026-01-12T03:52:11.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssetManagement.API.http",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.http",
-              "RelativeDocumentMoniker": "AssetManagement.API\\AssetManagement.API.http",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.http",
-              "RelativeToolTip": "AssetManagement.API\\AssetManagement.API.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-01-07T09:50:20.012Z",
+              "DocumentIndex": 3,
+              "Title": "20260107062051_initialCreate.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAMwN0AAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T09:50:12.531Z",
               "EditorCaption": ""
             },
             {
@@ -94,14 +138,161 @@
               "RelativeDocumentMoniker": "AssetManagement.API\\appsettings.json",
               "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\appsettings.json",
               "RelativeToolTip": "AssetManagement.API\\appsettings.json",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-07T09:50:10.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Program.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Program.cs",
+              "RelativeToolTip": "AssetManagement.API\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:50:24.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext .cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Data\\AppDbContext .cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Data\\AppDbContext .cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Data\\AppDbContext .cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Data\\AppDbContext .cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAMwGsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T09:47:02.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAPIBAAAAAAAAAAAMwP0BAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:09:44.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssetManagement.API.json",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json",
+              "RelativeDocumentMoniker": "AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json",
+              "RelativeToolTip": "AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-12T03:46:43.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRegistrationDto.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "RelativeToolTip": "AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T09:57:22.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:38:03.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssetManagement.Application.dll",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll",
+              "RelativeToolTip": "AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2026-01-10T10:32:41.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:35:21.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssetManagement.Application.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs",
+              "RelativeToolTip": "AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:32:37.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "log-20260107.txt",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Logs\\log-20260107.txt",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Logs\\log-20260107.txt",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Logs\\log-20260107.txt",
+              "RelativeToolTip": "AssetManagement.API\\Logs\\log-20260107.txt",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAhwAMBAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-10T10:09:29.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260107062051_initialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.Designer.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.Designer.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260107062051_initialCreate.Designer.cs",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAMwAACAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:09:41.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AssetsController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AssetsController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\AssetsController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAowJYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:39:41.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ValidationMiddleware.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Middleware\\ValidationMiddleware.cs",
               "RelativeDocumentMoniker": "AssetManagement.API\\Middleware\\ValidationMiddleware.cs",
@@ -109,12 +300,71 @@
               "RelativeToolTip": "AssetManagement.API\\Middleware\\ValidationMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:07.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:07.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
+              "Title": "UserMappingProfile.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Mappings\\UserMappingProfile.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Mappings\\UserMappingProfile.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Mappings\\UserMappingProfile.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Mappings\\UserMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T09:57:43.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAmwJ8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:36:19.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:37:13.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssetManagement.API.csproj",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.csproj",
+              "RelativeDocumentMoniker": "AssetManagement.API\\AssetManagement.API.csproj",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.csproj",
+              "RelativeToolTip": "AssetManagement.API\\AssetManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-10T05:58:01.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssetManagement.API.http",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.http",
+              "RelativeDocumentMoniker": "AssetManagement.API\\AssetManagement.API.http",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.http",
+              "RelativeToolTip": "AssetManagement.API\\AssetManagement.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-07T09:50:20.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
@@ -122,77 +372,11 @@
               "RelativeToolTip": "AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:04.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:04.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwLAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:37:13.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAmwJ4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:36:19.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAIwH4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:35:21.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAIBAAAAAAAAAAAowA4BAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:38:03.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssetsController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AssetsController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\AssetsController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:39:41.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "applicationhost.config",
               "DocumentMoniker": "C:\\AssetManagements\\.vs\\AssetManagement\\config\\applicationhost.config",
               "RelativeDocumentMoniker": ".vs\\AssetManagement\\config\\applicationhost.config",
@@ -200,8 +384,7 @@
               "RelativeToolTip": ".vs\\AssetManagement\\config\\applicationhost.config",
               "ViewState": "AgIAAG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-07T09:30:37.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:30:37.739Z"
             }
           ]
         }
