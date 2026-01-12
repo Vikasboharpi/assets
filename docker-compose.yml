@@ -32,7 +32,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT:-Production}
       - ASPNETCORE_URLS=http://+:8080
-      - ConnectionStrings__Default=Host=db;Port=5432;Database=assetdb;Username=assetuser;Password=12345
+      - ConnectionStrings__Default=Host=postgres;Port=5432;Database=assetdb;Username=assetuser;Password=12345
       - Jwt__Key=bffb4ee664ead0f2e1f67cd739375f14
       - Jwt__Issuer=AssetManagementAPI
       - Jwt__Audience=AssetManagementClient
