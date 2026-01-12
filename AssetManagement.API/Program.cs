@@ -90,12 +90,10 @@ builder.Services.AddCors(options =>
 
 
 // Add OpenAPI/Swagger (only in Development)
-if (builder.Environment.IsDevelopment())
-{
+
     builder.Services.AddOpenApi();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
-}
 
 var app = builder.Build();
 
