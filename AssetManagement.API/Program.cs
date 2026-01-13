@@ -189,6 +189,7 @@ app.UseAuthorization();
 
 // Add Health Check endpoint
 app.MapHealthChecks("/health");
+app.MapGet("/health", () => Results.Ok("Healthy!"));
 
 app.MapControllers();
 using (var scope = app.Services.CreateScope())
