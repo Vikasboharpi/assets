@@ -174,6 +174,28 @@ if (app.Environment.IsDevelopment())
         c.InjectJavascript("/swagger-ui/custom.js");
     });
 }
+else
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset Management API V1");
+        c.RoutePrefix = "swagger";
+        c.DocumentTitle = "Asset Management API Documentation";
+        c.DefaultModelsExpandDepth(-1); // Hide schemas section by default
+        c.DisplayRequestDuration();
+        c.EnableDeepLinking();
+        c.EnableFilter();
+        c.ShowExtensions();
+        c.EnableValidator();
+
+        // Custom CSS for better appearance
+        c.InjectStylesheet("/swagger-ui/custom.css");
+
+        // Add custom JavaScript for better UX
+        c.InjectJavascript("/swagger-ui/custom.js");
+    });
+}
 
 // Enable static files for custom Swagger assets
 app.UseStaticFiles();
