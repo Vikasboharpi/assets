@@ -84,5 +84,11 @@ namespace AssetManagement.Infrastructure.Repositories
             return await _context.Employees
                 .AnyAsync(u => u.Email.ToLower() == email.ToLower() || u.EmploymentId == employmentId);
         }
+
+        public async Task<bool> ExistsAsync(int id)
+        {
+            return await _context.Employees
+                .AnyAsync(u => u.Id == id && u.IsActive);
+        }
     }
 }

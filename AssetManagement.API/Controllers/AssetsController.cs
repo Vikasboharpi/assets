@@ -173,18 +173,18 @@ namespace AssetManagement.API.Controllers
         /// </summary>
         /// <param name="status">Asset status</param>
         /// <returns>List of assets with the specified status</returns>
-        //[HttpGet("status/{status}")]
-        //public async Task<ActionResult<ApiResponseDto<IEnumerable<AssetResponseDto>>>> GetAssetsByStatus(AssetStatus status)
-        //{
-        //    var result = await _assetService.GetAssetsByStatusAsync(status);
+        [HttpGet("status/{status}")]
+        public async Task<ActionResult<ApiResponseDto<IEnumerable<AssetResponseDto>>>> GetAssetsByStatus(AssetStatus status)
+        {
+            var result = await _assetService.GetAssetsByStatusAsync(status);
 
-        //    if (!result.Success)
-        //    {
-        //        return BadRequest(result);
-        //    }
+            if (!result.Success)
+            {
+                return BadRequest(result);
+            }
 
-        //    return Ok(result);
-        //}
+            return Ok(result);
+        }
 
         /// <summary>
         /// Update an existing asset (Admin, Manager, and IT Support only)

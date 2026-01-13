@@ -81,5 +81,11 @@ namespace AssetManagement.Infrastructure.Repositories
 
             return await query.AnyAsync();
         }
+
+        public async Task<bool> ExistsAsync(int id)
+        {
+            return await _context.Locations
+                .AnyAsync(l => l.Id == id && l.IsActive);
+        }
     }
 }

@@ -19,14 +19,29 @@ namespace AssetManagement.API.Authorization
             // Check if user is authenticated
             if (!context.HttpContext.User.Identity?.IsAuthenticated ?? true)
             {
-                context.Result = new UnauthorizedResult();
+                context.Result = new UnauthorizedObjectResult(new
+                {
+                    error = "User is not authenticated",
+                    message = "Please provide a valid JWT token in the Authorization header"
+                });
                 return;
             }
 
             // Get user role from claims
             var userRole = context.HttpContext.User.FindFirst(ClaimTypes.Role)?.Value;
 
-            if (string.IsNullOrEmpty(userRole) || !_allowedRoles.Contains(userRole))
+            if (string.IsNullOrEmpty(userRole))
+            {
+                context.Result = new UnauthorizedObjectResult(new
+                {
+                    error = "Role claim not found",
+                    message = "JWT token does not contain a valid role claim",
+                    availableClaims = context.HttpContext.User.Claims.Select(c => new { c.Type, c.Value }).ToList()
+                });
+                return;
+            }
+
+            if (!_allowedRoles.Contains(userRole))
             {
                 context.Result = new ForbidResult();
                 return;

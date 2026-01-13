@@ -15,6 +15,7 @@ namespace AssetManagement.Infrastructure.Data
         public DbSet<Category> Categories => Set<Category>();
         public DbSet<Brand> Brands => Set<Brand>();
         public DbSet<Location> Locations => Set<Location>();
+        public DbSet<PurchaseOrder> PurchaseOrders => Set<PurchaseOrder>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -85,6 +86,24 @@ namespace AssetManagement.Infrastructure.Data
 
             modelBuilder.Entity<Location>()
                 .HasIndex(l => l.Name)
+                .IsUnique();
+
+            // Configure PurchaseOrder relationships
+            modelBuilder.Entity<PurchaseOrder>()
+                .HasOne(po => po.CreatedByUser)
+                .WithMany()
+                .HasForeignKey(po => po.CreatedByUserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<PurchaseOrder>()
+                .HasOne(po => po.UpdatedByUser)
+                .WithMany()
+                .HasForeignKey(po => po.UpdatedByUserId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // Configure PurchaseOrder unique constraints
+            modelBuilder.Entity<PurchaseOrder>()
+                .HasIndex(po => po.PR_ID)
                 .IsUnique();
 
             // Seed default roles

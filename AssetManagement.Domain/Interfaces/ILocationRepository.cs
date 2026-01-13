@@ -12,5 +12,6 @@ namespace AssetManagement.Domain.Interfaces
         Task<Location> UpdateAsync(Location location);
         Task<bool> DeleteAsync(int id);
         Task<bool> ExistsAsync(string name, int? excludeId = null);
+        Task<bool> ExistsAsync(int id);
     }
 }

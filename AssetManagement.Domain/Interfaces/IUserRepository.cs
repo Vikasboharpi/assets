@@ -12,5 +12,6 @@ namespace AssetManagement.Domain.Interfaces
         Task<Users> UpdateAsync(Users user);
         Task<bool> DeleteAsync(int id);
         Task<bool> ExistsAsync(string email, string employmentId);
+        Task<bool> ExistsAsync(int id);
     }
 }

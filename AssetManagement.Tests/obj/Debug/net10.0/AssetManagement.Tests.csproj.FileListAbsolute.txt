@@ -104,6 +104,7 @@ C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\AssetManagement.Test
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\AssetManagement.Tests.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\AssetManagement.Tests.pdb
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -112,6 +113,9 @@ C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.TestPlatfo
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\xunit.assert.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\xunit.core.dll
 C:\AssetManagements\AssetManagement.Tests\bin\Debug\net10.0\xunit.execution.dotnet.dll

@@ -92,22 +92,24 @@ namespace AssetManagement.API.Controllers
         /// Get current user information
         /// </summary>
         /// <returns>Current user details</returns>
-        //[HttpGet("me")]
-        //[Authorize]
-        //public ActionResult<ApiResponseDto<object>> GetCurrentUser()
-        //{
-        //    var userInfo = new
-        //    {
-        //        Id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value,
-        //        Name = User.FindFirst(ClaimTypes.Name)?.Value,
-        //        Email = User.FindFirst(ClaimTypes.Email)?.Value,
-        //        Role = User.FindFirst(ClaimTypes.Role)?.Value,
-        //        EmploymentId = User.FindFirst("EmploymentId")?.Value,
-        //        Department = User.FindFirst("Department")?.Value
-        //    };
+        [HttpGet("me")]
+        [Authorize]
+        public ActionResult<ApiResponseDto<object>> GetCurrentUser()
+        {
+            var userInfo = new
+            {
+                Id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value,
+                Name = User.FindFirst(ClaimTypes.Name)?.Value,
+                Email = User.FindFirst(ClaimTypes.Email)?.Value,
+                Role = User.FindFirst(ClaimTypes.Role)?.Value,
+                EmploymentId = User.FindFirst("EmploymentId")?.Value,
+                Department = User.FindFirst("Department")?.Value,
+                IsAuthenticated = User.Identity?.IsAuthenticated ?? false,
+                AllClaims = User.Claims.Select(c => new { c.Type, c.Value }).ToList()
+            };
 
-        //    return Ok(ApiResponseDto<object>.SuccessResponse(userInfo, "User information retrieved"));
-        //}
+            return Ok(ApiResponseDto<object>.SuccessResponse(userInfo, "User information retrieved"));
+        }
 
         /// <summary>
         /// Logout (client-side token invalidation)

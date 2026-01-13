@@ -1,0 +1,237 @@
+/* Custom Swagger UI Styles */
+.swagger-ui .topbar {
+    background-color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+}
+
+.swagger-ui .topbar .download-url-wrapper {
+    display: none;
+}
+
+.swagger-ui .info .title {
+    color: #2c3e50;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.swagger-ui .info .description {
+    color: #34495e;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.swagger-ui .scheme-container {
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.swagger-ui .auth-wrapper {
+    background: #e8f5e8;
+    border: 1px solid #27ae60;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.swagger-ui .btn.authorize {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.swagger-ui .btn.authorize:hover {
+    background-color: #229954;
+    border-color: #229954;
+}
+
+.swagger-ui .opblock.opblock-post {
+    border-color: #27ae60;
+    background: rgba(39, 174, 96, 0.1);
+}
+
+.swagger-ui .opblock.opblock-get {
+    border-color: #3498db;
+    background: rgba(52, 152, 219, 0.1);
+}
+
+.swagger-ui .opblock.opblock-put {
+    border-color: #f39c12;
+    background: rgba(243, 156, 18, 0.1);
+}
+
+.swagger-ui .opblock.opblock-delete {
+    border-color: #e74c3c;
+    background: rgba(231, 76, 60, 0.1);
+}
+
+.swagger-ui .opblock.opblock-patch {
+    border-color: #9b59b6;
+    background: rgba(155, 89, 182, 0.1);
+}
+
+/* Custom authorization section styling */
+.swagger-ui .auth-container {
+    background: #f8f9fa;
+    border: 2px solid #27ae60;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.swagger-ui .auth-container h4 {
+    color: #27ae60;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Response section styling */
+.swagger-ui .responses-inner h4 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.swagger-ui .response-col_status {
+    font-weight: bold;
+}
+
+/* Parameter section styling */
+.swagger-ui .parameters-col_description {
+    color: #34495e;
+}
+
+.swagger-ui .parameter__name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Model section styling */
+.swagger-ui .model-box {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.swagger-ui .model .property {
+    color: #495057;
+}
+
+.swagger-ui .model .property-type {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+/* Try it out button styling */
+.swagger-ui .btn.try-out__btn {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.swagger-ui .btn.try-out__btn:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Execute button styling */
+.swagger-ui .btn.execute {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.swagger-ui .btn.execute:hover {
+    background-color: #229954;
+    border-color: #229954;
+}
+
+/* Clear button styling */
+.swagger-ui .btn.clear {
+    background-color: #95a5a6;
+    border-color: #95a5a6;
+    color: white;
+}
+
+.swagger-ui .btn.clear:hover {
+    background-color: #7f8c8d;
+    border-color: #7f8c8d;
+}
+
+/* Custom scrollbar */
+.swagger-ui ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.swagger-ui ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.swagger-ui ::-webkit-scrollbar-thumb {
+    background: #bdc3c7;
+    border-radius: 4px;
+}
+
+.swagger-ui ::-webkit-scrollbar-thumb:hover {
+    background: #95a5a6;
+}
+
+/* Loading animation */
+.swagger-ui .loading-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.swagger-ui .loading-container .loading {
+    color: #3498db;
+    font-size: 18px;
+}
+
+/* Error styling */
+.swagger-ui .errors-wrapper {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Success styling */
+.swagger-ui .response .response-col_status {
+    font-weight: bold;
+}
+
+.swagger-ui .response .response-col_status.response-200 {
+    color: #27ae60;
+}
+
+.swagger-ui .response .response-col_status.response-201 {
+    color: #27ae60;
+}
+
+.swagger-ui .response .response-col_status.response-400 {
+    color: #e74c3c;
+}
+
+.swagger-ui .response .response-col_status.response-401 {
+    color: #e67e22;
+}
+
+.swagger-ui .response .response-col_status.response-404 {
+    color: #e74c3c;
+}
+
+.swagger-ui .response .response-col_status.response-500 {
+    color: #8e44ad;
+}

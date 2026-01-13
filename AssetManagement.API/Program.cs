@@ -36,6 +36,7 @@ builder.Services.AddScoped<IAssetRepository, AssetRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IBrandRepository, BrandRepository>();
 builder.Services.AddScoped<ILocationRepository, LocationRepository>();
+builder.Services.AddScoped<IPurchaseOrderRepository, PurchaseOrderRepository>();
 
 // Register services
 builder.Services.AddScoped<IUserService, UserService>();
@@ -43,9 +44,10 @@ builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IAssetService, AssetService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IPurchaseOrderService, PurchaseOrderService>();
 
 // Configure AutoMapper
-builder.Services.AddAutoMapper(typeof(UserMappingProfile));
+builder.Services.AddAutoMapper(typeof(UserMappingProfile), typeof(PurchaseOrderMappingProfile));
 
 // Configure FluentValidation
 builder.Services.AddFluentValidationAutoValidation();
@@ -89,25 +91,92 @@ builder.Services.AddCors(options =>
 });
 
 
-// Add OpenAPI/Swagger (only in Development)
+// Add Health Checks
+builder.Services.AddHealthChecks()
+    .AddNpgSql(builder.Configuration.GetConnectionString("Default")!);
 
-    builder.Services.AddOpenApi();
+// Add Swagger (only in Development)
+if (builder.Environment.IsDevelopment())
+{
     builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
+    builder.Services.AddSwaggerGen(c =>
+    {
+        c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+        {
+            Title = "Asset Management API",
+            Version = "v1",
+            Description = "A comprehensive Asset Management system API",
+            Contact = new Microsoft.OpenApi.Models.OpenApiContact
+            {
+                Name = "Asset Management Team",
+                Email = "support@assetmanagement.com"
+            }
+        });
+
+        // Add JWT Bearer token support
+        c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+        {
+            Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+            Name = "Authorization",
+            In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+            Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+            Scheme = "Bearer",
+            BearerFormat = "JWT"
+        });
+
+        c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+        {
+            {
+                new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+                {
+                    Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                    {
+                        Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                        Id = "Bearer"
+                    }
+                },
+                new string[] {}
+            }
+        });
+
+        // Include XML comments if available
+        var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+        if (File.Exists(xmlPath))
+        {
+            c.IncludeXmlComments(xmlPath);
+        }
+    });
+}
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset Management API V1");
         c.RoutePrefix = "swagger";
+        c.DocumentTitle = "Asset Management API Documentation";
+        c.DefaultModelsExpandDepth(-1); // Hide schemas section by default
+        c.DisplayRequestDuration();
+        c.EnableDeepLinking();
+        c.EnableFilter();
+        c.ShowExtensions();
+        c.EnableValidator();
+        
+        // Custom CSS for better appearance
+        c.InjectStylesheet("/swagger-ui/custom.css");
+        
+        // Add custom JavaScript for better UX
+        c.InjectJavascript("/swagger-ui/custom.js");
     });
 }
+
+// Enable static files for custom Swagger assets
+app.UseStaticFiles();
 
 // Add custom middleware
 app.UseMiddleware<ExceptionHandlingMiddleware>();
@@ -119,6 +188,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 // Add Health Check endpoint
+app.MapHealthChecks("/health");
 
 app.MapControllers();
 using (var scope = app.Services.CreateScope())

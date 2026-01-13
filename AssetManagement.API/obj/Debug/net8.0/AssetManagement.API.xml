@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AssetManagement.API</name>
+    </assembly>
+    <members>
+        <member name="M:AssetManagement.API.Controllers.AssetsController.RegisterAsset(AssetManagement.Application.DTOs.AssetRegistrationDto)">
+            <summary>
+            Register a new asset (Admin, Manager, and IT Support only)
+            </summary>
+            <param name="registrationDto">Asset registration details</param>
+            <returns>Registered asset information</returns>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.AssetsController.GetAssetById(System.Int32)">
+            <summary>
+            Get asset by ID
+            </summary>
+            <param name="id">Asset ID</param>
+            <returns>Asset information</returns>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.AssetsController.GetAssetsByStatus(AssetManagement.Domain.Entities.AssetStatus)">
+            <summary>
+            Get assets by status
+            </summary>
+            <param name="status">Asset status</param>
+            <returns>List of assets with the specified status</returns>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.AuthController.Login(AssetManagement.Application.DTOs.LoginDto)">
+            <summary>
+            User login
+            </summary>
+            <param name="loginDto">Login credentials</param>
+            <returns>JWT token and user information</returns>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.AuthController.GetCurrentUser">
+            <summary>
+            Get current user information
+            </summary>
+            <returns>Current user details</returns>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.AuthController.Logout">
+            <summary>
+            Logout (client-side token invalidation)
+            </summary>
+            <returns>Success message</returns>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetAllPurchaseOrders">
+            <summary>
+            Get all purchase orders
+            </summary>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder(System.Int32)">
+            <summary>
+            Get purchase order by ID
+            </summary>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.DebugAuth">
+            <summary>
+            Debug endpoint to check authentication and authorization
+            </summary>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetAvailableStatuses">
+            <summary>
+            Get available statuses
+            </summary>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.CreatePurchaseOrder(AssetManagement.Application.DTOs.CreatePurchaseOrderDto)">
+            <summary>
+            Create a new purchase order
+            </summary>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetCurrentUserId">
+            <summary>
+            Check if PR_ID exists
+            </summary>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.RolesController.GetAllRoles">
+            <summary>
+            Get all roles
+            </summary>
+            <returns>List of all roles</returns>
+        </member>
+        <member name="M:AssetManagement.API.Controllers.UsersController.RegisterUser(AssetManagement.Application.DTOs.UserRegistrationDto)">
+            <summary>
+            Register a new user (Admin and IT Support only)
+            </summary>
+            <param name="registrationDto">User registration details</param>
+            <returns>Registered user information</returns>
+            
+        </member>
+        <member name="M:AssetManagement.API.Controllers.UsersController.GetUserById(System.Int32)">
+            <summary>
+            Get user by ID (Admin and IT Support only)
+            </summary>
+            <param name="id">User ID</param>
+            <returns>User information</returns>
+        </member>
+    </members>
+</doc>

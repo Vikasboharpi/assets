@@ -52,6 +52,32 @@
     ]
   },
   {
+    "ContainingType": "AssetManagement.API.Controllers.AssetsController",
+    "Method": "GetAssetsByStatus",
+    "RelativePath": "api/Assets/status/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "AssetManagement.Domain.Entities.AssetStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AssetManagement.Application.DTOs.ApiResponseDto\u00601[[System.Collections.Generic.IEnumerable\u00601[[AssetManagement.Application.DTOs.AssetResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "AssetManagement.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",

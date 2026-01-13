@@ -13,6 +13,7 @@ C:\AssetManagement\AssetManagement.Domain\obj\Debug\net10.0\ref\AssetManagement.
 C:\AssetManagements\AssetManagement.Domain\bin\Debug\net10.0\AssetManagement.Domain.deps.json
 C:\AssetManagements\AssetManagement.Domain\bin\Debug\net10.0\AssetManagement.Domain.dll
 C:\AssetManagements\AssetManagement.Domain\bin\Debug\net10.0\AssetManagement.Domain.pdb
+C:\AssetManagements\AssetManagement.Domain\obj\Debug\net10.0\AssetManagement.Domain.csproj.AssemblyReference.cache
 C:\AssetManagements\AssetManagement.Domain\obj\Debug\net10.0\AssetManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\AssetManagements\AssetManagement.Domain\obj\Debug\net10.0\AssetManagement.Domain.AssemblyInfoInputs.cache
 C:\AssetManagements\AssetManagement.Domain\obj\Debug\net10.0\AssetManagement.Domain.AssemblyInfo.cs
