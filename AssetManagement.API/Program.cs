@@ -96,9 +96,9 @@ builder.Services.AddHealthChecks()
     .AddNpgSql(builder.Configuration.GetConnectionString("Default")!);
 
 // Add Swagger (only in Development)
+builder.Services.AddEndpointsApiExplorer();
 if (builder.Environment.IsDevelopment())
 {
-    builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen(c =>
     {
         c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
