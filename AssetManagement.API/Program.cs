@@ -97,8 +97,6 @@ builder.Services.AddHealthChecks()
 
 // Add Swagger (only in Development)
 builder.Services.AddEndpointsApiExplorer();
-if (builder.Environment.IsDevelopment())
-{
     builder.Services.AddSwaggerGen(c =>
     {
         c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
@@ -147,7 +145,7 @@ if (builder.Environment.IsDevelopment())
             c.IncludeXmlComments(xmlPath);
         }
     });
-}
+
 
 var app = builder.Build();
 
