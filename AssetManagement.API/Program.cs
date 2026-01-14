@@ -78,15 +78,18 @@ builder.Services.AddAuthentication(options =>
 });
 
 // Configure CORS
-var corsSettings = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>();
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins(corsSettings ?? new[] { "http://localhost:4200" })
-              .AllowAnyMethod()
-              .AllowAnyHeader()
-              .AllowCredentials();
+        policy.WithOrigins(
+            "http://localhost:4200",
+            "http://10.10.19.26",
+            "http://10.10.19.26:4200"
+        )
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials();
     });
 });
 
