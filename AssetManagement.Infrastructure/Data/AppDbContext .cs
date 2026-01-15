@@ -29,23 +29,6 @@ namespace AssetManagement.Infrastructure.Data
                 .OnDelete(DeleteBehavior.Restrict);
 
             // Configure Asset relationships
-            modelBuilder.Entity<Asset>()
-                .HasOne(a => a.Category)
-                .WithMany(c => c.Assets)
-                .HasForeignKey(a => a.CategoryId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Asset>()
-                .HasOne(a => a.Brand)
-                .WithMany(b => b.Assets)
-                .HasForeignKey(a => a.BrandId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Asset>()
-                .HasOne(a => a.Location)
-                .WithMany(l => l.Assets)
-                .HasForeignKey(a => a.LocationId)
-                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Asset>()
                 .HasOne(a => a.CreatedByUser)

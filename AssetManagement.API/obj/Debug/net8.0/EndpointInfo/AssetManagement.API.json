@@ -679,9 +679,7 @@
     "schemas": {
       "AssetRegistrationDto": {
         "required": [
-          "brandId",
-          "categoryId",
-          "locationId",
+          "location",
           "name",
           "serialNumber"
         ],
@@ -692,33 +690,58 @@
             "minLength": 0,
             "type": "string"
           },
+          "category": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "brand": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
           "serialNumber": {
             "maxLength": 100,
             "minLength": 0,
             "type": "string"
           },
-          "categoryId": {
+          "location": {
             "maximum": 2147483647,
             "minimum": 1,
-            "type": "integer",
-            "format": "int32"
-          },
-          "brandId": {
-            "maximum": 2147483647,
-            "minimum": 1,
-            "type": "integer",
-            "format": "int32"
-          },
-          "locationId": {
-            "maximum": 2147483647,
-            "minimum": 1,
-            "type": "integer",
-            "format": "int32"
+            "minLength": 1,
+            "type": "string"
           },
           "remarks": {
             "maxLength": 500,
             "minLength": 0,
             "type": "string",
+            "nullable": true
+          },
+          "ram": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "storage": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "operatingSystem": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "sizeInGB": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -757,20 +780,21 @@
           "isActive": {
             "type": "boolean"
           },
-          "category": {
-            "$ref": "#/components/schemas/CategoryDto"
+          "ram": {
+            "type": "string",
+            "nullable": true
           },
           "brand": {
-            "$ref": "#/components/schemas/BrandDto"
+            "type": "string",
+            "nullable": true
           },
           "location": {
-            "$ref": "#/components/schemas/LocationDto"
+            "type": "string",
+            "nullable": true
           },
-          "createdByUser": {
-            "$ref": "#/components/schemas/UserResponseDto"
-          },
-          "assignedToUser": {
-            "$ref": "#/components/schemas/UserResponseDto"
+          "category": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -860,56 +884,6 @@
         },
         "additionalProperties": false
       },
-      "BrandDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CategoryDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
       "CreatePurchaseOrderDto": {
         "type": "object",
         "properties": {
@@ -953,47 +927,6 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "LocationDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "address": {
-            "type": "string",
-            "nullable": true
-          },
-          "city": {
-            "type": "string",
-            "nullable": true
-          },
-          "state": {
-            "type": "string",
-            "nullable": true
-          },
-          "postalCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "country": {
-            "type": "string",
-            "nullable": true
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false

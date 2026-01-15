@@ -58,13 +58,6 @@ namespace AssetManagement.Infrastructure.Repositories
             var category = await GetByIdAsync(id);
             if (category == null) return false;
 
-            // Check if category has assets
-            var hasAssets = await _context.Assets.AnyAsync(a => a.CategoryId == id && a.IsActive);
-            if (hasAssets)
-            {
-                throw new InvalidOperationException("Cannot delete category that has assets assigned to it");
-            }
-
             _context.Categories.Remove(category);
             await _context.SaveChangesAsync();
             return true;

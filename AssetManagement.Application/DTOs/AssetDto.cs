@@ -9,24 +9,33 @@ namespace AssetManagement.Application.DTOs
         [StringLength(100, ErrorMessage = "Asset name cannot exceed 100 characters")]
         public string Name { get; set; } = string.Empty;
 
+        [StringLength(100, ErrorMessage = "Category name cannot exceed 100 characters")]
+        public string? Category { get; set; } = string.Empty;
+
+        [StringLength(100, ErrorMessage = "Brand name cannot exceed 100 characters")]
+        public string? Brand { get; set; } = string.Empty;
+
         [Required(ErrorMessage = "Serial number is required")]
         [StringLength(100, ErrorMessage = "Serial number cannot exceed 100 characters")]
         public string SerialNumber { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Category is required")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please select a valid category")]
-        public int CategoryId { get; set; }
-
-        [Required(ErrorMessage = "Brand is required")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please select a valid brand")]
-        public int BrandId { get; set; }
-
         [Required(ErrorMessage = "Location is required")]
         [Range(1, int.MaxValue, ErrorMessage = "Please select a valid location")]
-        public int LocationId { get; set; }
+        public string? Location { get; set; }
 
         [StringLength(500, ErrorMessage = "Remarks cannot exceed 500 characters")]
         public string? Remarks { get; set; }
+
+        [StringLength(500, ErrorMessage = "Ram cannot exceed 500 characters")]
+        public string? Ram { get; set; }
+        [StringLength(500, ErrorMessage = "Storage cannot exceed 500 characters")]
+        public string? Storage { get; set; }
+
+        [StringLength(500, ErrorMessage = "OperatingSystem cannot exceed 500 characters")]
+        public string? OperatingSystem { get; set; }
+
+        [Range(1, int.MaxValue, ErrorMessage = "Please fill a valid GB")]
+        public int? SizeInGB { get; set; }
     }
 
     public class AssetResponseDto
@@ -39,13 +48,12 @@ namespace AssetManagement.Application.DTOs
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
         public bool IsActive { get; set; }
+        public string? Ram { get; set; }
+        public string? Brand { get; set; }
+        public string? Location { get; set; }
 
         // Related entities
-        public CategoryDto Category { get; set; } = null!;
-        public BrandDto Brand { get; set; } = null!;
-        public LocationDto Location { get; set; } = null!;
-        public UserResponseDto CreatedByUser { get; set; } = null!;
-        public UserResponseDto? AssignedToUser { get; set; }
+        public string? Category { get; set; } = null!;
     }
 
     public class AssetUpdateDto
@@ -55,16 +63,16 @@ namespace AssetManagement.Application.DTOs
         public string Name { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Category is required")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please select a valid category")]
-        public int CategoryId { get; set; }
+        [StringLength(100, ErrorMessage = "Category name cannot exceed 100 characters")]
+        public string? Category { get; set; }
 
         [Required(ErrorMessage = "Brand is required")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please select a valid brand")]
-        public int BrandId { get; set; }
+        [StringLength(100, ErrorMessage = "Brand name cannot exceed 100 characters")]
+        public string? Brand { get; set; }
 
         [Required(ErrorMessage = "Location is required")]
         [Range(1, int.MaxValue, ErrorMessage = "Please select a valid location")]
-        public int LocationId { get; set; }
+        public string Location { get; set; }
 
         [StringLength(500, ErrorMessage = "Remarks cannot exceed 500 characters")]
         public string? Remarks { get; set; }

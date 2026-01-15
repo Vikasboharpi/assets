@@ -10,7 +10,10 @@ namespace AssetManagement.Domain.Entities
         [Required]
         [MaxLength(100)]
         public string Name { get; set; } = string.Empty;
-        
+
+        [MaxLength(100)]
+        public string Brand { get; set; } = string.Empty;
+
         [Required]
         [MaxLength(100)]
         public string SerialNumber { get; set; } = string.Empty;
@@ -18,30 +21,14 @@ namespace AssetManagement.Domain.Entities
         [MaxLength(500)]
         public string? Remarks { get; set; }
         
-        // Foreign Keys
-        [Required]
-        public int CategoryId { get; set; }
-        
-        [Required]
-        public int BrandId { get; set; }
-        
-        [Required]
-        public int LocationId { get; set; }
-        
         [Required]
         public int CreatedByUserId { get; set; }
         
         public int? AssignedToUserId { get; set; }
         
-        // Navigation Properties
-        [ForeignKey("CategoryId")]
-        public virtual Category Category { get; set; } = null!;
+        public string? Category { get; set; } = null!;
         
-        [ForeignKey("BrandId")]
-        public virtual Brand Brand { get; set; } = null!;
-        
-        [ForeignKey("LocationId")]
-        public virtual Location Location { get; set; } = null!;
+        public string? Location { get; set; } 
         
         [ForeignKey("CreatedByUserId")]
         public virtual Users CreatedByUser { get; set; } = null!;

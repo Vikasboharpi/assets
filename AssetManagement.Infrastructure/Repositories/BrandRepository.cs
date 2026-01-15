@@ -58,12 +58,7 @@ namespace AssetManagement.Infrastructure.Repositories
             var brand = await GetByIdAsync(id);
             if (brand == null) return false;
 
-            // Check if brand has assets
-            var hasAssets = await _context.Assets.AnyAsync(a => a.BrandId == id && a.IsActive);
-            if (hasAssets)
-            {
-                throw new InvalidOperationException("Cannot delete brand that has assets assigned to it");
-            }
+         
 
             _context.Brands.Remove(brand);
             await _context.SaveChangesAsync();

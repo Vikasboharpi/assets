@@ -68,7 +68,7 @@ namespace AssetManagement.Infrastructure.Repositories
                 .Include(a => a.Location)
                 .Include(a => a.CreatedByUser)
                 .Include(a => a.AssignedToUser)
-                .Where(a => a.CategoryId == categoryId && a.IsActive)
+                .Where(a =>  a.IsActive)
                 .ToListAsync();
         }
 
@@ -80,7 +80,7 @@ namespace AssetManagement.Infrastructure.Repositories
                 .Include(a => a.Location)
                 .Include(a => a.CreatedByUser)
                 .Include(a => a.AssignedToUser)
-                .Where(a => a.LocationId == locationId && a.IsActive)
+                .Where(a =>  a.IsActive)
                 .ToListAsync();
         }
 

@@ -46,35 +46,15 @@ namespace AssetManagement.Application.Services
                     return ApiResponseDto<AssetResponseDto>.ErrorResponse("Asset with this serial number already exists");
                 }
 
-                // Validate category exists
-                var category = await _categoryRepository.GetByIdAsync(registrationDto.CategoryId);
-                if (category == null || !category.IsActive)
-                {
-                    return ApiResponseDto<AssetResponseDto>.ErrorResponse("Invalid category selected");
-                }
-
-                // Validate brand exists
-                var brand = await _brandRepository.GetByIdAsync(registrationDto.BrandId);
-                if (brand == null || !brand.IsActive)
-                {
-                    return ApiResponseDto<AssetResponseDto>.ErrorResponse("Invalid brand selected");
-                }
-
-                // Validate location exists
-                var location = await _locationRepository.GetByIdAsync(registrationDto.LocationId);
-                if (location == null || !location.IsActive)
-                {
-                    return ApiResponseDto<AssetResponseDto>.ErrorResponse("Invalid location selected");
-                }
 
                 // Create asset
                 var asset = new Asset
                 {
                     Name = registrationDto.Name,
                     SerialNumber = registrationDto.SerialNumber,
-                    CategoryId = registrationDto.CategoryId,
-                    BrandId = registrationDto.BrandId,
-                    LocationId = registrationDto.LocationId,
+                    Category = registrationDto.Category,
+                    Brand = registrationDto.Brand,
+                    Location = registrationDto.Location,
                     Remarks = registrationDto.Remarks,
                     CreatedByUserId = createdByUserId,
                     Status = AssetStatus.Available,
@@ -221,30 +201,11 @@ namespace AssetManagement.Application.Services
                     return ApiResponseDto<AssetResponseDto>.ErrorResponse("Asset not found");
                 }
 
-                // Validate category, brand, and location
-                var category = await _categoryRepository.GetByIdAsync(updateDto.CategoryId);
-                if (category == null || !category.IsActive)
-                {
-                    return ApiResponseDto<AssetResponseDto>.ErrorResponse("Invalid category selected");
-                }
-
-                var brand = await _brandRepository.GetByIdAsync(updateDto.BrandId);
-                if (brand == null || !brand.IsActive)
-                {
-                    return ApiResponseDto<AssetResponseDto>.ErrorResponse("Invalid brand selected");
-                }
-
-                var location = await _locationRepository.GetByIdAsync(updateDto.LocationId);
-                if (location == null || !location.IsActive)
-                {
-                    return ApiResponseDto<AssetResponseDto>.ErrorResponse("Invalid location selected");
-                }
-
                 // Update asset
                 asset.Name = updateDto.Name;
-                asset.CategoryId = updateDto.CategoryId;
-                asset.BrandId = updateDto.BrandId;
-                asset.LocationId = updateDto.LocationId;
+                asset.Category = updateDto.Category;
+                asset.Brand = updateDto.Brand;
+                asset.Location = updateDto.Location;
                 asset.Remarks = updateDto.Remarks;
                 asset.Status = updateDto.Status;
 

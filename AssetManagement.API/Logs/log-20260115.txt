@@ -826,3 +826,125 @@ ORDER BY "MigrationId";
 2026-01-15 16:58:27.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.3932ms
 2026-01-15 16:58:28.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
 2026-01-15 16:58:28.210 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.7539ms
+2026-01-15 17:36:22.230 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 17:36:22.307 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 17:36:22.486 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 17:36:22.621 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 17:36:22.622 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 17:36:22.636 +05:30 [INF] Applying migration '20260115120600_updateassets'.
+2026-01-15 17:36:22.739 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" DROP CONSTRAINT "FK_Assets_Brands_BrandId";
+2026-01-15 17:36:22.742 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" DROP CONSTRAINT "FK_Assets_Categories_CategoryId";
+2026-01-15 17:36:22.746 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" DROP CONSTRAINT "FK_Assets_Locations_LocationId";
+2026-01-15 17:36:22.752 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ALTER COLUMN "LocationId" DROP NOT NULL;
+2026-01-15 17:36:22.753 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ALTER COLUMN "CategoryId" DROP NOT NULL;
+2026-01-15 17:36:22.753 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ALTER COLUMN "BrandId" DROP NOT NULL;
+2026-01-15 17:36:22.770 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD "Brand" character varying(100) NOT NULL DEFAULT '';
+2026-01-15 17:36:22.770 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD "Category" text;
+2026-01-15 17:36:22.771 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD "Location" text;
+2026-01-15 17:36:22.791 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD CONSTRAINT "FK_Assets_Brands_BrandId" FOREIGN KEY ("BrandId") REFERENCES "Brands" ("Id");
+2026-01-15 17:36:22.794 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD CONSTRAINT "FK_Assets_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("Id");
+2026-01-15 17:36:22.800 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD CONSTRAINT "FK_Assets_Locations_LocationId" FOREIGN KEY ("LocationId") REFERENCES "Locations" ("Id");
+2026-01-15 17:36:22.802 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260115120600_updateassets', '8.0.8');
+2026-01-15 17:37:23.429 +05:30 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 17:37:23.515 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 17:37:23.658 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 17:37:23.820 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 17:37:23.821 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 17:37:23.838 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 17:37:23.917 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 17:37:24.234 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 17:37:24.234 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 17:37:24.308 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 74.6641ms
+2026-01-15 17:37:24.321 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 17:37:24.322 +05:30 [INF] Hosting environment: Development
+2026-01-15 17:37:24.322 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 17:37:24.413 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 189.0603ms
+2026-01-15 17:37:24.545 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 17:37:24.858 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 313.3215ms
+2026-01-15 17:38:53.863 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-15 17:38:53.886 +05:30 [INF] CORS policy execution failed.
+2026-01-15 17:38:53.887 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-15 17:38:53.960 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-15 17:38:53.962 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-15 17:38:53.987 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-15 17:38:54.744 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-15 17:38:54.910 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-15 17:38:54.920 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-15 17:38:54.939 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 947.167ms
+2026-01-15 17:38:54.940 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-15 17:38:54.940 +05:30 [INF] Response status: 200
+2026-01-15 17:38:54.948 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 1084.9489ms
+2026-01-15 17:39:51.216 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 204
+2026-01-15 17:39:51.225 +05:30 [INF] CORS policy execution failed.
+2026-01-15 17:39:51.227 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-15 17:39:51.252 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-01-15 17:39:51.258 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-15 17:39:51.260 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 401 null null 44.7454ms

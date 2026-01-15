@@ -58,13 +58,6 @@ namespace AssetManagement.Infrastructure.Repositories
             var location = await GetByIdAsync(id);
             if (location == null) return false;
 
-            // Check if location has assets
-            var hasAssets = await _context.Assets.AnyAsync(a => a.LocationId == id && a.IsActive);
-            if (hasAssets)
-            {
-                throw new InvalidOperationException("Cannot delete location that has assets assigned to it");
-            }
-
             _context.Locations.Remove(location);
             await _context.SaveChangesAsync();
             return true;
