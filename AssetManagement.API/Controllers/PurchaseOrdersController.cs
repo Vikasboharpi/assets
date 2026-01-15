@@ -33,7 +33,7 @@ namespace AssetManagement.API.Controllers
         /// <summary>
         /// Get purchase order by ID
         /// </summary>
-        [HttpGet("{id}")]
+        [HttpGet("/GetById/{id}")]
         [RoleAuthorization("Admin", "Manager", "Employee", "IT Support")]
         public async Task<ActionResult<PurchaseOrderDto>> GetPurchaseOrder(int id)
         {

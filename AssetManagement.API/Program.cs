@@ -15,7 +15,6 @@ using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure Serilog
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .CreateLogger();
@@ -77,7 +76,6 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -94,11 +92,8 @@ builder.Services.AddCors(options =>
 });
 
 
-// Add Health Checks
 builder.Services.AddHealthChecks()
     .AddNpgSql(builder.Configuration.GetConnectionString("Default")!);
-
-// Add Swagger (only in Development)
 builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen(c =>
     {
@@ -158,21 +153,13 @@ app.UseSwaggerUI(c =>
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset Management API V1");
     c.RoutePrefix = "swagger";
 });
-
-
-// Enable static files for custom Swagger assets
 app.UseStaticFiles();
 
-// Add custom middleware
-app.UseMiddleware<ExceptionHandlingMiddleware>();
-app.UseMiddleware<ValidationMiddleware>();
-
-//app.UseHttpsRedirection();
 app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
-
-// Add Health Check endpoint
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+app.UseMiddleware<ValidationMiddleware>();
 app.MapHealthChecks("/health");
 
 
