@@ -45,6 +45,20 @@ namespace AssetManagement.API.Controllers
             return Ok(purchaseOrder);
         }
 
+
+
+        [HttpGet("{id}")]
+        [RoleAuthorization("Admin", "Manager", "Employee", "IT Support")]
+        public async Task<ActionResult<PurchaseOrderDto>> UpdatePoOrder(int id)
+        {
+            var purchaseOrder = await _purchaseOrderService.GetPurchaseOrderByIdAsync(id);
+            if (purchaseOrder == null)
+            {
+                return NotFound($"Purchase Order with ID {id} not found");
+            }
+            return Ok(purchaseOrder);
+        }
+
         /// <summary>
         /// Get purchase order by PR_ID
         /// </summary>
@@ -182,21 +196,21 @@ namespace AssetManagement.API.Controllers
         /// <summary>
         /// Update a purchase order
         /// </summary>
-        //[HttpPut("{id}")]
-        //[RoleAuthorization("Admin", "Manager", "IT Support")]
-        //public async Task<ActionResult<PurchaseOrderDto>> UpdatePurchaseOrder(int id, UpdatePurchaseOrderDto updateDto)
-        //{
-        //    try
-        //    {
-        //        var userId = GetCurrentUserId();
-        //        var purchaseOrder = await _purchaseOrderService.UpdatePurchaseOrderAsync(id, updateDto, userId);
-        //        return Ok(purchaseOrder);
-        //    }
-        //    catch (ArgumentException ex)
-        //    {
-        //        return BadRequest(ex.Message);
-        //    }
-        //}
+        [HttpPut("{id}")]
+        [RoleAuthorization("Admin", "Manager", "IT Support")]
+        public async Task<ActionResult<PurchaseOrderDto>> UpdatePurchaseOrder(int id, UpdatePurchaseOrderDto updateDto)
+        {
+            try
+            {
+                var userId = GetCurrentUserId();
+                var purchaseOrder = await _purchaseOrderService.UpdatePurchaseOrderAsync(id, updateDto, userId);
+                return Ok(purchaseOrder);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
         /// <summary>
         /// Update purchase order status
@@ -224,17 +238,17 @@ namespace AssetManagement.API.Controllers
         /// <summary>
         /// Delete a purchase order (soft delete)
         /// </summary>
-        //[HttpDelete("{id}")]
-        //[RoleAuthorization("Admin", "Manager")]
-        //public async Task<ActionResult> DeletePurchaseOrder(int id)
-        //{
-        //    var result = await _purchaseOrderService.DeletePurchaseOrderAsync(id);
-        //    if (!result)
-        //    {
-        //        return NotFound($"Purchase Order with ID {id} not found");
-        //    }
-        //    return NoContent();
-        //}
+        [HttpDelete("{id}")]
+        [RoleAuthorization("Admin", "Manager")]
+        public async Task<ActionResult> DeletePurchaseOrder(int id)
+        {
+            var result = await _purchaseOrderService.DeletePurchaseOrderAsync(id);
+            if (!result)
+            {
+                return NotFound($"Purchase Order with ID {id} not found");
+            }
+            return NoContent();
+        }
 
         /// <summary>
         /// Check if purchase order exists
