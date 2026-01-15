@@ -217,6 +217,79 @@
   },
   {
     "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
+    "Method": "UpdatePoOrder",
+    "RelativePath": "api/PurchaseOrders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AssetManagement.Application.DTOs.PurchaseOrderDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
+    "Method": "UpdatePurchaseOrder",
+    "RelativePath": "api/PurchaseOrders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "AssetManagement.Application.DTOs.UpdatePurchaseOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AssetManagement.Application.DTOs.PurchaseOrderDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
+    "Method": "DeletePurchaseOrder",
+    "RelativePath": "api/PurchaseOrders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
     "Method": "DebugAuth",
     "RelativePath": "api/PurchaseOrders/debug/auth",
     "HttpMethod": "GET",

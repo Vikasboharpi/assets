@@ -1,0 +1,547 @@
+2026-01-15 14:44:57.220 +05:30 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 14:44:57.328 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 14:44:57.466 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 14:44:57.621 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 14:44:57.622 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 14:44:57.648 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 14:44:57.706 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 14:44:58.017 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 14:44:58.017 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 14:44:58.017 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 14:44:58.102 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 100.7705ms
+2026-01-15 14:44:58.122 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 14:44:58.123 +05:30 [INF] Hosting environment: Development
+2026-01-15 14:44:58.123 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 14:44:59.841 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1841.6092ms
+2026-01-15 14:45:00.076 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 14:45:00.232 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 2232.1251ms
+2026-01-15 14:45:00.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 14:45:00.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 8.779ms
+2026-01-15 14:45:00.272 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/swagger-ui.css - null null
+2026-01-15 14:45:00.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 14:45:00.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-15 14:45:00.288 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/swagger-ui-bundle.js - null null
+2026-01-15 14:45:00.340 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 65.9733ms
+2026-01-15 14:45:00.353 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.css - null null
+2026-01-15 14:45:00.346 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 14:45:00.393 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-01-15 14:45:00.393 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-01-15 14:45:00.407 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.css - 200 202 text/css 53.835ms
+2026-01-15 14:45:00.412 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-01-15 14:45:00.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/swagger-ui.css - 200 152034 text/css 164.6155ms
+2026-01-15 14:45:00.438 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 163.6304ms
+2026-01-15 14:45:00.459 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 14:45:00.524 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 448.0849ms
+2026-01-15 14:45:00.538 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-01-15 14:45:00.657 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 198.0852ms
+2026-01-15 14:45:00.662 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 374.1388ms
+2026-01-15 14:45:00.942 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 14:45:00.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/favicon-32x32.png - null null
+2026-01-15 14:45:00.948 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-01-15 14:45:00.948 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/favicon-32x32.png - 200 628 image/png 2.2188ms
+2026-01-15 14:45:00.982 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 14:45:00.991 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 48.8468ms
+2026-01-15 14:45:04.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 14:45:04.804 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 9.0132ms
+2026-01-15 14:45:04.862 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 14:45:04.865 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 14:45:04.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 3.8061ms
+2026-01-15 14:45:04.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 14:45:04.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 10.7204ms
+2026-01-15 14:45:04.895 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8212ms
+2026-01-15 14:45:04.982 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 14:45:05.030 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 14:45:05.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 50.5155ms
+2026-01-15 14:45:10.441 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 14:45:10.441 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 14:45:10.457 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 4.0051ms
+2026-01-15 14:45:10.465 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.4745ms
+2026-01-15 14:45:10.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 14:45:10.574 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 14:45:10.577 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 19.1189ms
+2026-01-15 14:45:17.384 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 14:45:17.392 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 7.6019ms
+2026-01-15 14:45:17.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 14:45:17.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 14:45:17.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 14:45:17.453 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 2.2239ms
+2026-01-15 14:45:17.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 4.6157ms
+2026-01-15 14:45:17.469 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.2365ms
+2026-01-15 14:45:17.515 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 14:45:17.535 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 14:45:17.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 22.3873ms
+2026-01-15 14:49:24.662 +05:30 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 14:49:24.757 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 14:49:24.988 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 14:49:25.208 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 14:49:25.209 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 14:49:25.245 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 14:49:25.303 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 14:49:25.555 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 14:49:25.555 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 14:49:25.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 60.6419ms
+2026-01-15 14:49:25.642 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 14:49:25.642 +05:30 [INF] Hosting environment: Development
+2026-01-15 14:49:25.643 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 14:49:25.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 135.4286ms
+2026-01-15 14:49:25.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 14:49:25.947 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 14:49:25.986 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 198.749ms
+2026-01-15 14:49:33.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 14:49:33.971 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 276.0481ms
+2026-01-15 14:49:33.994 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 14:49:33.994 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 14:49:33.996 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 1.9305ms
+2026-01-15 14:49:33.996 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 1.4751ms
+2026-01-15 14:49:34.035 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 14:49:34.064 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.3123ms
+2026-01-15 14:49:34.127 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 14:49:34.155 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 14:49:34.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 31.0414ms
+2026-01-15 15:16:36.098 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 15:16:36.101 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 15:16:36.136 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 60.7842ms
+2026-01-15 15:16:36.148 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.3939ms
+2026-01-15 15:16:36.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 15:16:36.516 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 15:16:36.519 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 36.9411ms
+2026-01-15 15:16:42.380 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 15:16:42.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 24.8947ms
+2026-01-15 15:16:42.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 15:16:42.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 15:16:42.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 1.5147ms
+2026-01-15 15:16:42.483 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 3.775ms
+2026-01-15 15:16:42.493 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 15:16:42.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.1152ms
+2026-01-15 15:16:42.596 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 15:16:42.615 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 15:16:42.619 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 22.0674ms
+2026-01-15 15:23:09.025 +05:30 [INF] Executed DbCommand (519ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 15:23:09.108 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 15:23:09.320 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 15:23:09.452 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 15:23:09.453 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 15:23:09.894 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 15:23:09.944 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 15:23:10.172 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 15:23:10.172 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 15:23:10.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 78.4285ms
+2026-01-15 15:23:10.252 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 15:23:10.252 +05:30 [INF] Hosting environment: Development
+2026-01-15 15:23:10.253 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 15:23:10.287 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.1156ms
+2026-01-15 15:23:10.384 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 15:23:10.578 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 15:23:10.614 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 229.9746ms
+2026-01-15 15:23:17.097 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 15:23:17.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 177.7799ms
+2026-01-15 15:23:17.313 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 15:23:17.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 15:23:17.315 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 2.0961ms
+2026-01-15 15:23:17.320 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 4.5251ms
+2026-01-15 15:23:17.333 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 15:23:17.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.9188ms
+2026-01-15 15:23:17.418 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 15:23:17.452 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 15:23:17.459 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 40.5892ms
+2026-01-15 16:05:22.493 +05:30 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:05:22.573 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 16:05:22.738 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:05:22.865 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:05:22.866 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 16:05:22.883 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 16:05:22.949 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 16:05:23.140 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 16:05:23.140 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 16:05:23.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 65.1826ms
+2026-01-15 16:05:23.221 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 16:05:23.221 +05:30 [INF] Hosting environment: Development
+2026-01-15 16:05:23.221 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 16:05:23.267 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 135.6502ms
+2026-01-15 16:05:23.365 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 16:05:23.478 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 16:05:23.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 146.5179ms
+2026-01-15 16:05:25.906 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 16:05:26.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 200.243ms
+2026-01-15 16:05:26.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 16:05:26.166 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 16:05:26.168 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 2.1013ms
+2026-01-15 16:05:26.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 2.105ms
+2026-01-15 16:05:26.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 16:05:26.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.4725ms
+2026-01-15 16:05:26.295 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 16:05:26.330 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 16:05:26.334 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 38.6441ms
+2026-01-15 16:05:55.053 +05:30 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:05:55.134 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 16:05:55.377 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:05:55.601 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:05:55.601 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 16:05:55.617 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 16:05:55.646 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 16:05:55.810 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 16:05:55.810 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 16:05:55.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 43.4809ms
+2026-01-15 16:05:55.879 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 16:05:55.879 +05:30 [INF] Hosting environment: Development
+2026-01-15 16:05:55.879 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 16:05:55.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.3233ms
+2026-01-15 16:05:56.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 16:05:56.238 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 16:05:56.253 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 81.7816ms
+2026-01-15 16:06:11.229 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 16:06:11.389 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 159.816ms
+2026-01-15 16:06:11.440 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 16:06:11.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 4.6553ms
+2026-01-15 16:06:11.445 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 16:06:11.460 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 13.761ms
+2026-01-15 16:06:11.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 16:06:11.496 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.6925ms
+2026-01-15 16:06:11.546 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 16:06:11.599 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 16:06:11.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 55.5364ms
+2026-01-15 16:09:24.267 +05:30 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:09:24.339 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 16:09:24.541 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:09:24.717 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 16:09:24.718 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 16:09:24.733 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 16:09:24.767 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 16:09:24.958 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 16:09:24.958 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 16:09:25.008 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 50.6876ms
+2026-01-15 16:09:25.033 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 16:09:25.034 +05:30 [INF] Hosting environment: Development
+2026-01-15 16:09:25.034 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 16:09:25.069 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.7206ms
+2026-01-15 16:09:25.161 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 16:09:25.292 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 16:09:25.336 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 176.1049ms
+2026-01-15 16:09:29.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 16:09:30.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 168.6862ms
+2026-01-15 16:09:30.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 16:09:30.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 16:09:30.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 1.663ms
+2026-01-15 16:09:30.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 20.4202ms
+2026-01-15 16:09:30.223 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 16:09:30.239 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.8799ms
+2026-01-15 16:09:30.321 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 16:09:30.358 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 16:09:30.362 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 41.3331ms
+2026-01-15 16:09:46.094 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-15 16:09:46.104 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 9.3086ms
+2026-01-15 16:09:46.156 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 16:09:46.156 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 16:09:46.157 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 1.3038ms
+2026-01-15 16:09:46.161 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-15 16:09:46.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 1.5066ms
+2026-01-15 16:09:46.187 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.6788ms
+2026-01-15 16:09:46.225 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 16:09:46.276 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/PurchaseOrders/{id}" for actions - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API),AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePoOrder (AssetManagement.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-15 16:09:46.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 54.0927ms

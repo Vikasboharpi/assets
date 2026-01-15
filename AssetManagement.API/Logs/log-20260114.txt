@@ -1,0 +1,80 @@
+2026-01-14 12:32:42.663 +05:30 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-14 12:32:43.376 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-14 12:32:43.551 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-14 12:32:43.788 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-14 12:32:43.789 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-14 12:32:43.823 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-14 12:32:43.879 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 12:32:44.249 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-14 12:32:44.249 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-14 12:32:44.378 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 146.4095ms
+2026-01-14 12:32:44.401 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 12:32:44.402 +05:30 [INF] Hosting environment: Development
+2026-01-14 12:32:44.402 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-14 12:32:45.015 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 784.8503ms
+2026-01-14 12:32:45.202 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-14 12:32:45.299 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.5432ms
+2026-01-14 16:15:32.202 +05:30 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-14 16:15:32.296 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-14 16:15:32.475 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-14 16:15:32.688 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-14 16:15:32.689 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-14 16:15:32.707 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-14 16:15:32.757 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 16:15:33.073 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-14 16:15:33.073 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-14 16:15:33.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 75.7814ms
+2026-01-14 16:15:33.180 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 16:15:33.180 +05:30 [INF] Hosting environment: Development
+2026-01-14 16:15:33.180 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-14 16:15:34.515 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1456.5999ms
+2026-01-14 16:15:34.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-14 16:15:34.967 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.8504ms
