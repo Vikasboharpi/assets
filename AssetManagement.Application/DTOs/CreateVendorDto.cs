@@ -15,12 +15,15 @@ namespace AssetManagement.Application.DTOs
         public string GSTNumber { get; set; } = null!;
         public string PANNumber { get; set; } = null!;
         public string ContactPerson { get; set; } = null!;
+
+        public string Status { get; set; } = null!;
+        public bool IsActive { get; set; }
+        public bool IsVerified { get; set; }
     }
 
     public class UpdateVendorDto : CreateVendorDto
     {
-        public bool IsActive { get; set; }
-        public bool IsVerified { get; set; }
+      
     }
 
     public class VendorResponseDto

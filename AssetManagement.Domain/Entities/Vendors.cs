@@ -15,6 +15,8 @@ namespace AssetManagement.Domain.Entities
         public string Address { get; set; } = null!;
         public string GSTNumber { get; set; } = null!;
         public string PANNumber { get; set; } = null!;
+
+        public string Status { get; set; } = null!;
         public bool IsActive { get; set; }
         public string ContactPerson { get; set; } = null!;
         public bool IsVerified { get; set; }
