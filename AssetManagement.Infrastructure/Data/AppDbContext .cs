@@ -1,5 +1,6 @@
 ﻿using AssetManagement.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Numerics;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -16,6 +17,7 @@ namespace AssetManagement.Infrastructure.Data
         public DbSet<Brand> Brands => Set<Brand>();
         public DbSet<Location> Locations => Set<Location>();
         public DbSet<PurchaseOrder> PurchaseOrders => Set<PurchaseOrder>();
+        public DbSet<Vendors> Vendors => Set<Vendors>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -147,6 +149,15 @@ namespace AssetManagement.Infrastructure.Data
                 new Location { Id = 3, Name = "Branch Office - Delhi", Address = "789 Corporate Plaza", City = "Delhi", State = "Delhi", PostalCode = "110001", Country = "India", IsActive = true, CreatedAt = seedDate, UpdatedAt = seedDate },
                 new Location { Id = 4, Name = "Warehouse", Address = "321 Industrial Area", City = "Pune", State = "Maharashtra", PostalCode = "411001", Country = "India", IsActive = true, CreatedAt = seedDate, UpdatedAt = seedDate }
             );
+
+         
+            modelBuilder.Entity<Vendors>(entity =>
+            {
+                entity.HasKey(x => x.VendorId);
+                entity.HasIndex(x => x.GSTNumber).IsUnique();
+                entity.HasIndex(x => x.PANNumber).IsUnique();
+            });
+        
         }
 
         private static string HashPassword(string password)

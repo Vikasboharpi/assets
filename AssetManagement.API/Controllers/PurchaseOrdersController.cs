@@ -47,6 +47,19 @@ namespace AssetManagement.API.Controllers
 
 
 
+
+        [HttpPost("/UpdateForApproval/{id}")]
+        [RoleAuthorization("Admin", "Manager", "Employee", "IT Support")]
+        public async Task<ActionResult<UpdatePurchaseOrderDto>> UpdatePurchaseOrderForApproved(int id)
+        {
+            var purchaseOrder = await _purchaseOrderService.UpdatePurchaseOrderForApproved(id);
+            if (purchaseOrder == null)
+            {
+                return NotFound($"Purchase Order with ID {id} not found");
+            }
+            return Ok(purchaseOrder);
+        }
+
         [HttpGet("{id}")]
         [RoleAuthorization("Admin", "Manager", "Employee", "IT Support")]
         public async Task<ActionResult<PurchaseOrderDto>> UpdatePoOrder(int id)

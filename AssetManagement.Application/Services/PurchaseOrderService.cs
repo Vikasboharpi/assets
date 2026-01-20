@@ -136,6 +136,23 @@ namespace AssetManagement.Application.Services
             return _mapper.Map<PurchaseOrderDto>(updatedPurchaseOrder);
         }
 
+
+        public async Task<CreatePurchaseOrderDto> UpdatePurchaseOrderForApproved(int id)
+        {
+            var existingPurchaseOrder = await _purchaseOrderRepository.GetByIdAsync(id);
+            var updateDto = await _purchaseOrderRepository.GetByIdAsync(id);
+            if (existingPurchaseOrder == null)
+            {
+                throw new ArgumentException("Purchase Order not found");
+            }
+
+            existingPurchaseOrder.Status = "Approved";
+
+
+            var updatedPurchaseOrder = await _purchaseOrderRepository.UpdateAsync(existingPurchaseOrder);
+            return _mapper.Map<CreatePurchaseOrderDto>(updatedPurchaseOrder);
+        }
+
         public async Task<bool> UpdatePurchaseOrderStatusAsync(int id, string status, int updatedByUserId)
         {
             var existingPurchaseOrder = await _purchaseOrderRepository.GetByIdAsync(id);

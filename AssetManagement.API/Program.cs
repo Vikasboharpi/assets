@@ -44,6 +44,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IAssetService, AssetService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IPurchaseOrderService, PurchaseOrderService>();
+builder.Services.AddScoped<IVendorRepository, VendorRepository>();
 
 // Configure AutoMapper
 builder.Services.AddAutoMapper(typeof(UserMappingProfile), typeof(PurchaseOrderMappingProfile));

@@ -6,6 +6,7 @@ namespace AssetManagement.Application.Interfaces
     {
         Task<IEnumerable<PurchaseOrderDto>> GetAllPurchaseOrdersAsync();
         Task<PurchaseOrderDto?> GetPurchaseOrderByIdAsync(int id);
+        Task<CreatePurchaseOrderDto?> UpdatePurchaseOrderForApproved(int id);
         Task<PurchaseOrderDto?> GetPurchaseOrderByPRIdAsync(string prId);
         Task<IEnumerable<PurchaseOrderDto>> GetPurchaseOrdersByStatusAsync(string status);
         Task<IEnumerable<PurchaseOrderDto>> GetPurchaseOrdersByRequesterAsync(string requesterName);
