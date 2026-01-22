@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "C:\\AssetManagements\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\assetmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\assetmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|c:\\assetmanagements\\assetmanagement.domain\\entities\\assetmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|solutionrelative:assetmanagement.domain\\entities\\assetmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\assetmanagementcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\assetmanagementcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\services\\assetmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\services\\assetmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\interfaces\\iassetmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\interfaces\\iassetmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\assetmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\assetmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\interfaces\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\interfaces\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|c:\\assetmanagements\\assetmanagement.domain\\interfaces\\iassetmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|solutionrelative:assetmanagement.domain\\interfaces\\iassetmanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|c:\\assetmanagements\\assetmanagement.domain\\interfaces\\ivendorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|solutionrelative:assetmanagement.domain\\interfaces\\ivendorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +83,24 @@
       "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\services\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\services\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|c:\\assetmanagements\\assetmanagement.domain\\interfaces\\ipurchaseorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|solutionrelative:assetmanagement.domain\\interfaces\\ipurchaseorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|c:\\assetmanagements\\assetmanagement.domain\\entities\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,8 +111,28 @@
       "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\purchaseorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|c:\\assetmanagements\\assetmanagement.domain\\entities\\vendors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|solutionrelative:assetmanagement.domain\\entities\\vendors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\createvendordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\createvendordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\interfaces\\ipurchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,36 +143,20 @@
       "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\services\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|c:\\assetmanagements\\assetmanagement.application\\dtos\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8F3260-0869-82DA-AAAB-5812371FE54E}|AssetManagement.Application\\AssetManagement.Application.csproj|solutionrelative:assetmanagement.application\\dtos\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|c:\\assetmanagements\\assetmanagement.domain\\entities\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{953ECABF-63A1-F480-AF07-7AC4B6800910}|AssetManagement.Domain\\AssetManagement.Domain.csproj|solutionrelative:assetmanagement.domain\\entities\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\logs\\log-20260107.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -131,10 +199,6 @@
       "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260112084713_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260112084713_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AssetManagements\\AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -167,16 +231,24 @@
       "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\assetmanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|c:\\assetmanagements\\assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE9EB9C-CF34-045F-74E7-ACC88232D672}|AssetManagement.API\\AssetManagement.API.csproj|solutionrelative:assetmanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AssetManagements\\.vs\\AssetManagement\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\AssetManagement\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260112064225_initialcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260112064225_initialcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260115120600_updateassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260115120600_updateassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260120071106_addvendors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260120071106_addvendors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|c:\\assetmanagements\\assetmanagement.infrastructure\\migrations\\20260121072555_updateassetsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDF5642-DB12-E408-6B17-9FC8E7C3FC74}|AssetManagement.Infrastructure\\AssetManagement.Infrastructure.csproj|solutionrelative:assetmanagement.infrastructure\\migrations\\20260121072555_updateassetsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,59 +258,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260115120600_updateassets.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
-              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AssetManagementService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Services\\AssetManagementService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Services\\AssetManagementService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Services\\AssetManagementService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Services\\AssetManagementService.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAcwLYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:06:01.068Z",
+              "WhenOpened": "2026-01-20T11:07:28.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BrandRepository.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
-              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAIA0wEoAAAANAAAAAAAAAA==",
+              "Title": "AssetManagementCreateDto.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\AssetManagementCreateDto.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\AssetManagementCreateDto.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\AssetManagementCreateDto.cs",
+              "RelativeToolTip": "AssetManagement.Application\\DTOs\\AssetManagementCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:04:23.656Z",
+              "WhenOpened": "2026-01-20T10:34:23.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AssetRepository.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\AssetRepository.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\AssetRepository.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\AssetRepository.cs",
-              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\AssetRepository.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAewFIAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Assetmanagement.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Assetmanagement.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Domain\\Entities\\Assetmanagement.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Assetmanagement.cs",
+              "RelativeToolTip": "AssetManagement.Domain\\Entities\\Assetmanagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:32:13.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssetManagementRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\AssetManagementRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\AssetManagementRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\AssetManagementRepository.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\AssetManagementRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T12:03:45.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AssetService.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Services\\AssetService.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Application\\Services\\AssetService.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Services\\AssetService.cs",
-              "RelativeToolTip": "AssetManagement.Application\\Services\\AssetService.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAQwMwAAAATAAAAAAAAAA==",
+              "DocumentIndex": 61,
+              "Title": "20260121072555_updateAssetsmanagement.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260121072555_updateAssetsmanagement.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260121072555_updateAssetsmanagement.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260121072555_updateAssetsmanagement.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260121072555_updateAssetsmanagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T11:58:00.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T07:25:55.743Z"
             },
             {
               "$type": "Document",
@@ -248,222 +332,207 @@
               "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Data\\AppDbContext .cs",
               "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Data\\AppDbContext .cs",
               "RelativeToolTip": "AssetManagement.Infrastructure\\Data\\AppDbContext .cs",
-              "ViewState": "AgIAABMAAAAAAAAAAIAwwCQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T09:47:02.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T09:47:02.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAA5wD4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T07:47:38.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocationRepository.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
-              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAA5wDoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T07:47:45.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AssetDto.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\AssetDto.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\AssetDto.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\AssetDto.cs",
-              "RelativeToolTip": "AssetManagement.Application\\DTOs\\AssetDto.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAUwEYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T11:40:38.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Asset.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Asset.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Domain\\Entities\\Asset.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Asset.cs",
-              "RelativeToolTip": "AssetManagement.Domain\\Entities\\Asset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T11:52:59.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Program.cs",
               "RelativeDocumentMoniker": "AssetManagement.API\\Program.cs",
               "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Program.cs",
               "RelativeToolTip": "AssetManagement.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAgwJkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T09:50:24.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PurchaseOrdersController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IAssetManagementService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IAssetManagementService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Interfaces\\IAssetManagementService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IAssetManagementService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Interfaces\\IAssetManagementService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T07:43:16.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T09:33:53.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssetManagementController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetManagementController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AssetManagementController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetManagementController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\AssetManagementController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowC0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:31:25.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBrandService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IBrandService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Interfaces\\IBrandService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IBrandService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Interfaces\\IBrandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:01:00.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:29:56.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAssetManagementRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Interfaces\\IAssetManagementRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Domain\\Interfaces\\IAssetManagementRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Interfaces\\IAssetManagementRepository.cs",
+              "RelativeToolTip": "AssetManagement.Domain\\Interfaces\\IAssetManagementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:51:15.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssetsController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AssetsController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\AssetsController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:39:41.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:30:03.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:50:04.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VendorsController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\VendorsController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\VendorsController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\VendorsController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\VendorsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:09:00.61Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "AssetDto.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\AssetDto.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\AssetDto.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\AssetDto.cs",
+              "RelativeToolTip": "AssetManagement.Application\\DTOs\\AssetDto.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwCgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T11:40:38.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IVendorRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Interfaces\\IVendorRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Domain\\Interfaces\\IVendorRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Interfaces\\IVendorRepository.cs",
+              "RelativeToolTip": "AssetManagement.Domain\\Interfaces\\IVendorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:09:47.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:47:38.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:09:15.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\BrandRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAMwEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:04:23.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "AssetManagement.Application\\Services\\UserService.cs",
               "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Services\\UserService.cs",
               "RelativeToolTip": "AssetManagement.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAnwEsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T10:45:00.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AssetsController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AssetsController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AssetsController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\AssetsController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:39:41.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IPurchaseOrderService.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
-              "RelativeToolTip": "AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T06:55:37.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserRegistrationDto.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
-              "RelativeToolTip": "AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T09:57:22.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PurchaseOrderService.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Services\\PurchaseOrderService.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Application\\Services\\PurchaseOrderService.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Services\\PurchaseOrderService.cs",
-              "RelativeToolTip": "AssetManagement.Application\\Services\\PurchaseOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T07:48:51.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "AssetManagement.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowC4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:38:03.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\appsettings.json",
-              "RelativeDocumentMoniker": "AssetManagement.API\\appsettings.json",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\appsettings.json",
-              "RelativeToolTip": "AssetManagement.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-12T05:40:38.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "AssetManagement.API\\appsettings.Production.json",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\appsettings.Production.json",
-              "RelativeToolTip": "AssetManagement.API\\appsettings.Production.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-12T10:35:22.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PurchaseOrderDto.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
-              "RelativeToolTip": "AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T07:49:34.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "PurchaseOrder.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
-              "RelativeToolTip": "AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T07:38:52.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\UserRepository.cs",
@@ -471,12 +540,240 @@
               "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T07:47:57.67Z",
+              "WhenOpened": "2026-01-13T07:47:57.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPurchaseOrderRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Interfaces\\IPurchaseOrderRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Domain\\Interfaces\\IPurchaseOrderRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Interfaces\\IPurchaseOrderRepository.cs",
+              "RelativeToolTip": "AssetManagement.Domain\\Interfaces\\IPurchaseOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:54:30.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Interfaces\\IRoleService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:52:41.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Services\\RoleService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:53:05.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:38:03.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateVendorDto.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\CreateVendorDto.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\CreateVendorDto.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\CreateVendorDto.cs",
+              "RelativeToolTip": "AssetManagement.Application\\DTOs\\CreateVendorDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:02:49.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Asset.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Domain\\Entities\\Asset.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Asset.cs",
+              "RelativeToolTip": "AssetManagement.Domain\\Entities\\Asset.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T11:52:59.735Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "PurchaseOrdersController.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "RelativeToolTip": "AssetManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:43:16.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAIwJIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:18:03.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Vendors.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Vendors.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Domain\\Entities\\Vendors.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\Vendors.cs",
+              "RelativeToolTip": "AssetManagement.Domain\\Entities\\Vendors.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:00:27.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PurchaseOrderDto.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
+              "RelativeToolTip": "AssetManagement.Application\\DTOs\\PurchaseOrderDto.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:49:34.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20260120071106_addvendors.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260120071106_addvendors.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260120071106_addvendors.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260120071106_addvendors.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260120071106_addvendors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:11:07.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPurchaseOrderService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Interfaces\\IPurchaseOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T06:55:37.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PurchaseOrderService.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Services\\PurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\Services\\PurchaseOrderService.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\Services\\PurchaseOrderService.cs",
+              "RelativeToolTip": "AssetManagement.Application\\Services\\PurchaseOrderService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAwwJIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:48:51.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LocationRepository.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Repositories\\LocationRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA5wDoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:47:45.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AssetManagement.API\\appsettings.json",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\appsettings.json",
+              "RelativeToolTip": "AssetManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-12T05:40:38.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260115120600_updateassets.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
+              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260115120600_updateassets.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:06:01.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserRegistrationDto.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "RelativeToolTip": "AssetManagement.Application\\DTOs\\UserRegistrationDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T09:57:22.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "AssetManagement.API\\appsettings.Production.json",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\appsettings.Production.json",
+              "RelativeToolTip": "AssetManagement.API\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-12T10:35:22.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
+              "ToolTip": "C:\\AssetManagements\\AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
+              "RelativeToolTip": "AssetManagement.Domain\\Entities\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:38:52.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\AssetManagements\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -484,12 +781,11 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAACUAAAAAAAAAAAAwwEIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-01-12T10:39:16.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:39:16.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "log-20260107.txt",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Logs\\log-20260107.txt",
               "RelativeDocumentMoniker": "AssetManagement.API\\Logs\\log-20260107.txt",
@@ -497,12 +793,11 @@
               "RelativeToolTip": "AssetManagement.API\\Logs\\log-20260107.txt",
               "ViewState": "AgIAAN4BAAAAAAAAAAAhwO0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-10T10:09:29.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T10:09:29.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 40,
               "Title": "AssetManagement.API.csproj",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.csproj",
               "RelativeDocumentMoniker": "AssetManagement.API\\AssetManagement.API.csproj",
@@ -514,19 +809,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "01-init.sql",
               "DocumentMoniker": "C:\\AssetManagements\\init-db\\01-init.sql",
               "RelativeDocumentMoniker": "init-db\\01-init.sql",
               "ToolTip": "C:\\AssetManagements\\init-db\\01-init.sql",
               "RelativeToolTip": "init-db\\01-init.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-12T10:42:19.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:42:19.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "AssetManagement.Application.csproj",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\AssetManagement.Application.csproj",
               "RelativeDocumentMoniker": "AssetManagement.Application\\AssetManagement.Application.csproj",
@@ -538,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "AssetManagement.API\\appsettings.Development.json",
@@ -546,12 +840,11 @@
               "RelativeToolTip": "AssetManagement.API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-12T10:35:20.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:35:20.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 42,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\AuthController.cs",
@@ -559,12 +852,11 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:35:21.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:35:21.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\AssetManagements\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -572,12 +864,11 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAB4AAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-12T10:42:08.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:42:08.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -585,12 +876,11 @@
               "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAGBnwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T08:48:22.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T08:48:22.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "nginx.conf",
               "DocumentMoniker": "C:\\AssetManagements\\nginx.conf",
               "RelativeDocumentMoniker": "nginx.conf",
@@ -598,25 +888,11 @@
               "RelativeToolTip": "nginx.conf",
               "ViewState": "AgIAAEUAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-12T10:42:31.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:42:31.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20260112084713_Init.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260112084713_Init.cs",
-              "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260112084713_Init.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260112084713_Init.cs",
-              "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260112084713_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T08:48:24.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 58,
               "Title": "20260112064225_InitialCreated.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Infrastructure\\Migrations\\20260112064225_InitialCreated.cs",
               "RelativeDocumentMoniker": "AssetManagement.Infrastructure\\Migrations\\20260112064225_InitialCreated.cs",
@@ -624,12 +900,11 @@
               "RelativeToolTip": "AssetManagement.Infrastructure\\Migrations\\20260112064225_InitialCreated.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwCEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T06:42:25.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T06:42:25.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "AssetManagement.API.json",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json",
               "RelativeDocumentMoniker": "AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json",
@@ -637,12 +912,11 @@
               "RelativeToolTip": "AssetManagement.API\\obj\\Debug\\net10.0\\EndpointInfo\\AssetManagement.API.json",
               "ViewState": "AgIAAIoAAAAAAAAAAABhwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-12T03:46:43.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T03:46:43.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "AssetManagement.Application.dll",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll",
               "RelativeDocumentMoniker": "AssetManagement.Application\\obj\\Debug\\net10.0\\refint\\AssetManagement.Application.dll",
@@ -653,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 51,
               "Title": "AssetManagement.Application.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs",
@@ -661,12 +935,11 @@
               "RelativeToolTip": "AssetManagement.Application\\obj\\Debug\\net10.0\\AssetManagement.Application.AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T10:32:37.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T10:32:37.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 52,
               "Title": "ValidationMiddleware.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Middleware\\ValidationMiddleware.cs",
               "RelativeDocumentMoniker": "AssetManagement.API\\Middleware\\ValidationMiddleware.cs",
@@ -674,12 +947,11 @@
               "RelativeToolTip": "AssetManagement.API\\Middleware\\ValidationMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:07.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:07.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 53,
               "Title": "UserMappingProfile.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.Application\\Mappings\\UserMappingProfile.cs",
               "RelativeDocumentMoniker": "AssetManagement.Application\\Mappings\\UserMappingProfile.cs",
@@ -687,12 +959,11 @@
               "RelativeToolTip": "AssetManagement.Application\\Mappings\\UserMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T09:57:43.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T09:57:43.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 54,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\CategoriesController.cs",
@@ -700,12 +971,11 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAmwJ8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:36:19.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:36:19.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 55,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "AssetManagement.API\\Controllers\\RolesController.cs",
@@ -713,12 +983,11 @@
               "RelativeToolTip": "AssetManagement.API\\Controllers\\RolesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:37:13.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:37:13.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 56,
               "Title": "AssetManagement.API.http",
               "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\AssetManagement.API.http",
               "RelativeDocumentMoniker": "AssetManagement.API\\AssetManagement.API.http",
@@ -726,25 +995,11 @@
               "RelativeToolTip": "AssetManagement.API\\AssetManagement.API.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-01-07T09:50:20.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:50:20.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\AssetManagements\\AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "ToolTip": "C:\\AssetManagements\\AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "AssetManagement.API\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:50:04.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 57,
               "Title": "applicationhost.config",
               "DocumentMoniker": "C:\\AssetManagements\\.vs\\AssetManagement\\config\\applicationhost.config",
               "RelativeDocumentMoniker": ".vs\\AssetManagement\\config\\applicationhost.config",
@@ -752,8 +1007,7 @@
               "RelativeToolTip": ".vs\\AssetManagement\\config\\applicationhost.config",
               "ViewState": "AgIAAGsAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-07T09:30:37.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T09:30:37.739Z"
             }
           ]
         }

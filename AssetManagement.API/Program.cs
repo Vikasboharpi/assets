@@ -1,17 +1,18 @@
-using AssetManagement.Infrastructure.Data;
-using AssetManagement.Domain.Interfaces;
-using AssetManagement.Infrastructure.Repositories;
-using AssetManagement.Application.Interfaces;
-using AssetManagement.Application.Services;
-using AssetManagement.Application.Mappings;
 using AssetManagement.API.Middleware;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Serilog;
+using AssetManagement.Application.Interfaces;
+using AssetManagement.Application.Mappings;
+using AssetManagement.Application.Services;
+using AssetManagement.Domain.Interfaces;
+using AssetManagement.Infrastructure.Data;
+using AssetManagement.Infrastructure.Repositories;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Serilog;
+using System.Security.Claims;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,20 +32,20 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Register repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
-builder.Services.AddScoped<IAssetRepository, AssetRepository>();
+builder.Services.AddScoped<IAssetManagementRepository, AssetManagementRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IBrandRepository, BrandRepository>();
 builder.Services.AddScoped<ILocationRepository, LocationRepository>();
 builder.Services.AddScoped<IPurchaseOrderRepository, PurchaseOrderRepository>();
+builder.Services.AddScoped<IVendorRepository, VendorRepository>();
 
 // Register services
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IAssetService, AssetService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IPurchaseOrderService, PurchaseOrderService>();
-builder.Services.AddScoped<IVendorRepository, VendorRepository>();
+builder.Services.AddScoped<IAssetManagementService, AssetManagementService>();
 
 // Configure AutoMapper
 builder.Services.AddAutoMapper(typeof(UserMappingProfile), typeof(PurchaseOrderMappingProfile));
@@ -73,7 +74,9 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = true,
         ValidAudience = jwtSettings["Audience"],
         ValidateLifetime = true,
-        ClockSkew = TimeSpan.Zero
+        ClockSkew = TimeSpan.Zero,
+        NameClaimType = ClaimTypes.NameIdentifier,
+        RoleClaimType = ClaimTypes.Role
     };
 });
 

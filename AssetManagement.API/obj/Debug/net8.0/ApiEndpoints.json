@@ -1,8 +1,34 @@
 [
   {
-    "ContainingType": "AssetManagement.API.Controllers.AssetsController",
-    "Method": "GetAssetById",
-    "RelativePath": "api/Assets/{id}",
+    "ContainingType": "AssetManagement.API.Controllers.AssetManagementController",
+    "Method": "Create",
+    "RelativePath": "api/assets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AssetManagement.Application.DTOs.AssetManagementCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.AssetManagementController",
+    "Method": "GetAll",
+    "RelativePath": "api/assets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.AssetManagementController",
+    "Method": "GetById",
+    "RelativePath": "api/assets/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -13,69 +39,44 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AssetManagement.Application.DTOs.ApiResponseDto\u00601[[AssetManagement.Application.DTOs.AssetResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "AssetManagement.API.Controllers.AssetsController",
-    "Method": "RegisterAsset",
-    "RelativePath": "api/Assets/register",
-    "HttpMethod": "POST",
+    "ContainingType": "AssetManagement.API.Controllers.AssetManagementController",
+    "Method": "Update",
+    "RelativePath": "api/assets/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "registrationDto",
-        "Type": "AssetManagement.Application.DTOs.AssetRegistrationDto",
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AssetManagement.Application.DTOs.AssetManagementUpdateDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AssetManagement.Application.DTOs.ApiResponseDto\u00601[[AssetManagement.Application.DTOs.AssetResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "AssetManagement.API.Controllers.AssetsController",
-    "Method": "GetAssetsByStatus",
-    "RelativePath": "api/Assets/status/{status}",
-    "HttpMethod": "GET",
+    "ContainingType": "AssetManagement.API.Controllers.AssetManagementController",
+    "Method": "Delete",
+    "RelativePath": "api/assets/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "status",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AssetManagement.Application.DTOs.ApiResponseDto\u00601[[System.Collections.Generic.IEnumerable\u00601[[AssetManagement.Application.DTOs.AssetResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AssetManagement.API.Controllers.AuthController",
@@ -263,36 +264,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
-    "Method": "DebugAuth",
-    "RelativePath": "api/PurchaseOrders/debug/auth",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
-    "Method": "GetAvailableStatuses",
-    "RelativePath": "api/PurchaseOrders/statuses",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "AssetManagement.API.Controllers.RolesController",
     "Method": "GetAllRoles",
     "RelativePath": "api/Roles",
@@ -365,6 +336,85 @@
     ]
   },
   {
+    "ContainingType": "AssetManagement.API.Controllers.VendorsController",
+    "Method": "GetAll",
+    "RelativePath": "api/vendors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.VendorsController",
+    "Method": "Create",
+    "RelativePath": "api/vendors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AssetManagement.Application.DTOs.CreateVendorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.VendorsController",
+    "Method": "GetById",
+    "RelativePath": "api/vendors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.VendorsController",
+    "Method": "Update",
+    "RelativePath": "api/vendors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AssetManagement.Application.DTOs.UpdateVendorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.VendorsController",
+    "Method": "Delete",
+    "RelativePath": "api/vendors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
     "Method": "GetPurchaseOrder",
     "RelativePath": "GetById/{id}",
@@ -381,6 +431,32 @@
     "ReturnTypes": [
       {
         "Type": "AssetManagement.Application.DTOs.PurchaseOrderDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AssetManagement.API.Controllers.PurchaseOrdersController",
+    "Method": "UpdatePurchaseOrderForApproved",
+    "RelativePath": "UpdateForApproval/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AssetManagement.Application.DTOs.UpdatePurchaseOrderDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

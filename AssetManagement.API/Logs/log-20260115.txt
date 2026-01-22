@@ -948,3 +948,90 @@ LIMIT 1
 DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2026-01-15 17:39:51.258 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
 2026-01-15 17:39:51.260 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 401 null null 44.7454ms
+2026-01-15 18:23:28.449 +05:30 [INF] Executed DbCommand (440ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 18:23:28.600 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 18:23:29.037 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 18:23:29.181 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 18:23:29.182 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 18:23:29.200 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 18:23:29.262 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 18:23:29.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 18:23:29.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 18:23:29.761 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 148.842ms
+2026-01-15 18:23:29.771 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 18:23:29.771 +05:30 [INF] Hosting environment: Development
+2026-01-15 18:23:29.772 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 18:23:29.849 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 255.5299ms
+2026-01-15 18:23:29.968 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 18:23:30.261 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 293.9419ms
+2026-01-15 18:24:16.822 +05:30 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 18:24:16.901 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 18:24:17.070 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 18:24:17.201 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-15 18:24:17.202 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-15 18:24:17.226 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-15 18:24:17.263 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-15 18:24:17.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-15 18:24:17.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-15 18:24:17.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 70.8025ms
+2026-01-15 18:24:17.591 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-15 18:24:17.591 +05:30 [INF] Hosting environment: Development
+2026-01-15 18:24:17.591 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-15 18:24:17.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.166ms
+2026-01-15 18:24:17.690 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-15 18:24:17.963 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 272.6343ms
+2026-01-15 18:25:14.818 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/UpdateForApproval/1 - null 0
+2026-01-15 18:25:14.832 +05:30 [INF] CORS policy execution failed.
+2026-01-15 18:25:14.833 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-15 18:25:14.927 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-01-15 18:25:14.931 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-15 18:25:14.935 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/UpdateForApproval/1 - 401 null null 117.7473ms

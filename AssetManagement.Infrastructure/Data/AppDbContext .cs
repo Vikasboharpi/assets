@@ -13,6 +13,7 @@ namespace AssetManagement.Infrastructure.Data
         public DbSet<Users> Employees => Set<Users>();
         public DbSet<Role> Roles => Set<Role>();
         public DbSet<Asset> Assets => Set<Asset>();
+        public DbSet<Assetmanagement> Assetmanagement => Set<Assetmanagement>();
         public DbSet<Category> Categories => Set<Category>();
         public DbSet<Brand> Brands => Set<Brand>();
         public DbSet<Location> Locations => Set<Location>();

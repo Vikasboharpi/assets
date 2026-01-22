@@ -1,5 +1,5 @@
 ﻿using AssetManagement.Application.DTOs;
-using AssetManagement.Application.Interfaces;
+using AssetManagement.Domain.Interfaces;
 using AssetManagement.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -44,7 +44,8 @@ namespace AssetManagement.API.Controllers
                 PANNumber = dto.PANNumber,
                 ContactPerson = dto.ContactPerson,
                 IsActive = true,
-                IsVerified = false
+                IsVerified = false,
+                Status = dto.Status
             };
 
             await _repo.AddAsync(vendor);

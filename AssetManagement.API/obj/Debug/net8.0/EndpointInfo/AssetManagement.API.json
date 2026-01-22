@@ -10,67 +10,56 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Assets/register": {
+    "/api/assets": {
       "post": {
         "tags": [
-          "Assets"
+          "AssetManagement"
         ],
-        "summary": "Register a new asset (Admin, Manager, and IT Support only)",
         "requestBody": {
-          "description": "Asset registration details",
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AssetRegistrationDto"
+                "$ref": "#/components/schemas/AssetManagementCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AssetRegistrationDto"
+                "$ref": "#/components/schemas/AssetManagementCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AssetRegistrationDto"
+                "$ref": "#/components/schemas/AssetManagementCreateDto"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoApiResponseDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoApiResponseDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoApiResponseDto"
-                }
-              }
-            }
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "AssetManagement"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
     },
-    "/api/Assets/{id}": {
+    "/api/assets/{id}": {
       "get": {
         "tags": [
-          "Assets"
+          "AssetManagement"
         ],
-        "summary": "Get asset by ID",
         "parameters": [
           {
             "name": "id",
             "in": "path",
-            "description": "Asset ID",
             "required": true,
             "schema": {
               "type": "integer",
@@ -80,65 +69,68 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoApiResponseDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoApiResponseDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoApiResponseDto"
-                }
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "AssetManagement"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AssetManagementUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AssetManagementUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AssetManagementUpdateDto"
               }
             }
           }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
         }
-      }
-    },
-    "/api/Assets/status/{status}": {
-      "get": {
+      },
+      "delete": {
         "tags": [
-          "Assets"
+          "AssetManagement"
         ],
-        "summary": "Get assets by status",
         "parameters": [
           {
-            "name": "status",
+            "name": "id",
             "in": "path",
-            "description": "Asset status",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/AssetStatus"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoIEnumerableApiResponseDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoIEnumerableApiResponseDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AssetResponseDtoIEnumerableApiResponseDto"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -258,7 +250,6 @@
         "tags": [
           "PurchaseOrders"
         ],
-        "summary": "Get all purchase orders",
         "responses": {
           "200": {
             "description": "OK",
@@ -295,7 +286,6 @@
         "tags": [
           "PurchaseOrders"
         ],
-        "summary": "Create a new purchase order",
         "requestBody": {
           "content": {
             "application/json": {
@@ -344,7 +334,6 @@
         "tags": [
           "PurchaseOrders"
         ],
-        "summary": "Get purchase order by ID",
         "parameters": [
           {
             "name": "id",
@@ -373,6 +362,46 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/PurchaseOrderDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/UpdateForApproval/{id}": {
+      "post": {
+        "tags": [
+          "PurchaseOrders"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UpdatePurchaseOrderDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UpdatePurchaseOrderDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UpdatePurchaseOrderDto"
                 }
               }
             }
@@ -423,7 +452,6 @@
         "tags": [
           "PurchaseOrders"
         ],
-        "summary": "Update a purchase order",
         "parameters": [
           {
             "name": "id",
@@ -481,7 +509,6 @@
         "tags": [
           "PurchaseOrders"
         ],
-        "summary": "Delete a purchase order (soft delete)",
         "parameters": [
           {
             "name": "id",
@@ -496,58 +523,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/PurchaseOrders/debug/auth": {
-      "get": {
-        "tags": [
-          "PurchaseOrders"
-        ],
-        "summary": "Debug endpoint to check authentication and authorization",
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/PurchaseOrders/statuses": {
-      "get": {
-        "tags": [
-          "PurchaseOrders"
-        ],
-        "summary": "Get available statuses",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -673,114 +648,193 @@
           }
         }
       }
+    },
+    "/api/vendors": {
+      "get": {
+        "tags": [
+          "Vendors"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Vendors"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateVendorDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateVendorDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateVendorDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/vendors/{id}": {
+      "get": {
+        "tags": [
+          "Vendors"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Vendors"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateVendorDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateVendorDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateVendorDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Vendors"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
-      "AssetRegistrationDto": {
-        "required": [
-          "location",
-          "name",
-          "serialNumber"
-        ],
+      "AssetManagementCreateDto": {
         "type": "object",
         "properties": {
-          "name": {
-            "maxLength": 100,
-            "minLength": 0,
-            "type": "string"
-          },
           "category": {
-            "maxLength": 100,
-            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "assetName": {
             "type": "string",
             "nullable": true
           },
           "brand": {
-            "maxLength": 100,
-            "minLength": 0,
             "type": "string",
             "nullable": true
           },
           "serialNumber": {
-            "maxLength": 100,
-            "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "location": {
-            "maximum": 2147483647,
-            "minimum": 1,
-            "minLength": 1,
-            "type": "string"
-          },
-          "remarks": {
-            "maxLength": 500,
-            "minLength": 0,
             "type": "string",
             "nullable": true
           },
           "ram": {
-            "maxLength": 500,
-            "minLength": 0,
             "type": "string",
             "nullable": true
           },
           "storage": {
-            "maxLength": 500,
-            "minLength": 0,
             "type": "string",
             "nullable": true
           },
-          "operatingSystem": {
-            "maxLength": 500,
-            "minLength": 0,
+          "processor": {
             "type": "string",
             "nullable": true
           },
-          "sizeInGB": {
-            "maximum": 2147483647,
-            "minimum": 1,
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "AssetResponseDto": {
-        "type": "object",
-        "properties": {
-          "id": {
+          "storageSize": {
             "type": "integer",
             "format": "int32"
           },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "serialNumber": {
+          "departmentType": {
             "type": "string",
             "nullable": true
           },
           "remarks": {
             "type": "string",
             "nullable": true
-          },
-          "status": {
-            "$ref": "#/components/schemas/AssetStatus"
-          },
-          "createdAt": {
+          }
+        },
+        "additionalProperties": false
+      },
+      "AssetManagementUpdateDto": {
+        "type": "object",
+        "properties": {
+          "category": {
             "type": "string",
-            "format": "date-time"
+            "nullable": true
           },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "ram": {
+          "assetName": {
             "type": "string",
             "nullable": true
           },
@@ -792,74 +846,32 @@
             "type": "string",
             "nullable": true
           },
-          "category": {
+          "ram": {
+            "type": "string",
+            "nullable": true
+          },
+          "storage": {
+            "type": "string",
+            "nullable": true
+          },
+          "processor": {
+            "type": "string",
+            "nullable": true
+          },
+          "storageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmentType": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
-      },
-      "AssetResponseDtoApiResponseDto": {
-        "type": "object",
-        "properties": {
-          "success": {
-            "type": "boolean"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "data": {
-            "$ref": "#/components/schemas/AssetResponseDto"
-          },
-          "errors": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "AssetResponseDtoIEnumerableApiResponseDto": {
-        "type": "object",
-        "properties": {
-          "success": {
-            "type": "boolean"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/AssetResponseDto"
-            },
-            "nullable": true
-          },
-          "errors": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "AssetStatus": {
-        "enum": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        "type": "integer",
-        "format": "int32"
       },
       "BooleanApiResponseDto": {
         "type": "object",
@@ -927,6 +939,50 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateVendorDto": {
+        "type": "object",
+        "properties": {
+          "vendorName": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "gstNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "panNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactPerson": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "isVerified": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -1182,6 +1238,50 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateVendorDto": {
+        "type": "object",
+        "properties": {
+          "vendorName": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "gstNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "panNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactPerson": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "isVerified": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

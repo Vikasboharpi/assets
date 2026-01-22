@@ -4,27 +4,6 @@
         <name>AssetManagement.API</name>
     </assembly>
     <members>
-        <member name="M:AssetManagement.API.Controllers.AssetsController.RegisterAsset(AssetManagement.Application.DTOs.AssetRegistrationDto)">
-            <summary>
-            Register a new asset (Admin, Manager, and IT Support only)
-            </summary>
-            <param name="registrationDto">Asset registration details</param>
-            <returns>Registered asset information</returns>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.AssetsController.GetAssetById(System.Int32)">
-            <summary>
-            Get asset by ID
-            </summary>
-            <param name="id">Asset ID</param>
-            <returns>Asset information</returns>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.AssetsController.GetAssetsByStatus(AssetManagement.Domain.Entities.AssetStatus)">
-            <summary>
-            Get assets by status
-            </summary>
-            <param name="status">Asset status</param>
-            <returns>List of assets with the specified status</returns>
-        </member>
         <member name="M:AssetManagement.API.Controllers.AuthController.Login(AssetManagement.Application.DTOs.LoginDto)">
             <summary>
             User login
@@ -43,46 +22,6 @@
             Logout (client-side token invalidation)
             </summary>
             <returns>Success message</returns>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetAllPurchaseOrders">
-            <summary>
-            Get all purchase orders
-            </summary>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder(System.Int32)">
-            <summary>
-            Get purchase order by ID
-            </summary>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.DebugAuth">
-            <summary>
-            Debug endpoint to check authentication and authorization
-            </summary>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetAvailableStatuses">
-            <summary>
-            Get available statuses
-            </summary>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.CreatePurchaseOrder(AssetManagement.Application.DTOs.CreatePurchaseOrderDto)">
-            <summary>
-            Create a new purchase order
-            </summary>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.UpdatePurchaseOrder(System.Int32,AssetManagement.Application.DTOs.UpdatePurchaseOrderDto)">
-            <summary>
-            Update a purchase order
-            </summary>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.DeletePurchaseOrder(System.Int32)">
-            <summary>
-            Delete a purchase order (soft delete)
-            </summary>
-        </member>
-        <member name="M:AssetManagement.API.Controllers.PurchaseOrdersController.GetCurrentUserId">
-            <summary>
-            Check if PR_ID exists
-            </summary>
         </member>
         <member name="M:AssetManagement.API.Controllers.RolesController.GetAllRoles">
             <summary>

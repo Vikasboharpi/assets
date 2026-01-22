@@ -1,0 +1,1688 @@
+2026-01-20 12:21:09.796 +05:30 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:21:10.253 +05:30 [INF] Executed DbCommand (143ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:21:10.644 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:21:11.074 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:21:11.075 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:21:11.106 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 12:21:11.308 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 12:21:11.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 12:21:11.960 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 12:21:11.960 +05:30 [INF] Hosting environment: Development
+2026-01-20 12:21:11.960 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 12:21:12.934 +05:30 [INF] Processing request: GET /
+2026-01-20 12:21:12.936 +05:30 [INF] Response status: 404
+2026-01-20 12:21:12.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 1147.0293ms
+2026-01-20 12:21:12.986 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 12:22:05.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger - null null
+2026-01-20 12:22:06.752 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger - 301 null null 880.4683ms
+2026-01-20 12:22:06.779 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 12:22:06.936 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 156.4594ms
+2026-01-20 12:22:07.036 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/swagger-ui.css - null null
+2026-01-20 12:22:07.043 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.css - null null
+2026-01-20 12:22:07.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/swagger-ui-bundle.js - null null
+2026-01-20 12:22:07.059 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 12:22:07.066 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 5.5441ms
+2026-01-20 12:22:07.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-20 12:22:07.088 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-01-20 12:22:07.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 12:22:07.089 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-01-20 12:22:07.090 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-01-20 12:22:07.092 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 12:22:07.092 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.css - 200 202 text/css 47.2806ms
+2026-01-20 12:22:07.097 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 4.6086ms
+2026-01-20 12:22:07.105 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/swagger-ui.css - 200 152034 text/css 69.5435ms
+2026-01-20 12:22:07.116 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 40.9861ms
+2026-01-20 12:22:07.148 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-01-20 12:22:07.195 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 143.6124ms
+2026-01-20 12:22:07.223 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.5394ms
+2026-01-20 12:22:07.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 12:22:07.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.3279ms
+2026-01-20 12:41:26.046 +05:30 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:41:26.121 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:41:26.616 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:41:27.003 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:41:27.005 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:41:27.023 +05:30 [INF] Applying migration '20260120071106_addvendors'.
+2026-01-20 12:41:27.311 +05:30 [INF] Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Vendors" (
+    "VendorId" integer GENERATED BY DEFAULT AS IDENTITY,
+    "VendorName" text NOT NULL,
+    "EmailAddress" text NOT NULL,
+    "PhoneNumber" text NOT NULL,
+    "Address" text NOT NULL,
+    "GSTNumber" text NOT NULL,
+    "PANNumber" text NOT NULL,
+    "IsActive" boolean NOT NULL,
+    "ContactPerson" text NOT NULL,
+    "IsVerified" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Vendors" PRIMARY KEY ("VendorId")
+);
+2026-01-20 12:41:27.357 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Vendors_GSTNumber" ON "Vendors" ("GSTNumber");
+2026-01-20 12:41:27.366 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Vendors_PANNumber" ON "Vendors" ("PANNumber");
+2026-01-20 12:41:27.373 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260120071106_addvendors', '8.0.8');
+2026-01-20 12:44:32.183 +05:30 [INF] Executed DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:44:32.272 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:44:32.409 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:44:32.533 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:44:32.534 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:44:32.561 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 12:44:32.613 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 12:44:32.943 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 12:44:32.996 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 12:44:32.996 +05:30 [INF] Hosting environment: Development
+2026-01-20 12:44:32.996 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 12:44:33.316 +05:30 [INF] Processing request: GET /
+2026-01-20 12:44:33.317 +05:30 [INF] Response status: 404
+2026-01-20 12:44:33.356 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 421.2254ms
+2026-01-20 12:44:33.359 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 12:44:50.067 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 12:44:50.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 132.4072ms
+2026-01-20 12:44:50.309 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 12:44:50.310 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 12:44:50.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 12:44:50.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 16.2597ms
+2026-01-20 12:44:50.350 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 38.5968ms
+2026-01-20 12:44:50.402 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.4565ms
+2026-01-20 12:44:50.608 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 12:44:50.676 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.883ms
+2026-01-20 12:45:31.402 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 12:45:31.423 +05:30 [INF] CORS policy execution failed.
+2026-01-20 12:45:31.424 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 12:45:31.429 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 12:45:31.432 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 12:45:31.472 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 12:45:32.215 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 12:45:32.434 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 12:45:32.443 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 12:45:32.463 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 985.8229ms
+2026-01-20 12:45:32.464 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 12:45:32.464 +05:30 [INF] Response status: 200
+2026-01-20 12:45:32.472 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 1070.065ms
+2026-01-20 12:51:56.037 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:51:56.100 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:51:56.910 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:51:57.033 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:51:57.034 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:51:57.046 +05:30 [INF] Applying migration '20260120072142_addvendorstatus'.
+2026-01-20 12:51:57.127 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Vendors" ADD "Status" text NOT NULL DEFAULT '';
+2026-01-20 12:51:57.128 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260120072142_addvendorstatus', '8.0.8');
+2026-01-20 12:53:10.692 +05:30 [INF] Executed DbCommand (88ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:53:10.767 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:53:11.148 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:53:11.465 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 12:53:11.466 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 12:53:11.482 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 12:53:11.524 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 12:53:11.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 12:53:11.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 12:53:11.881 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 12:53:11.882 +05:30 [INF] Hosting environment: Development
+2026-01-20 12:53:11.882 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 12:53:12.100 +05:30 [INF] Processing request: GET /
+2026-01-20 12:53:12.101 +05:30 [INF] Response status: 404
+2026-01-20 12:53:12.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 325.1485ms
+2026-01-20 12:53:12.149 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 12:53:12.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 360.2568ms
+2026-01-20 12:53:12.251 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 12:53:12.265 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 12:53:12.303 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 38.3939ms
+2026-01-20 12:53:12.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 52.4894ms
+2026-01-20 12:53:12.306 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 12:53:12.416 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.8726ms
+2026-01-20 12:53:12.490 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 12:53:12.567 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 76.3766ms
+2026-01-20 12:53:35.624 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 12:53:35.638 +05:30 [INF] CORS policy execution failed.
+2026-01-20 12:53:35.638 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 12:53:35.641 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 12:53:35.642 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 12:53:35.667 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 12:53:36.401 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 12:53:36.585 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 12:53:36.594 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 12:53:36.616 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 943.3879ms
+2026-01-20 12:53:36.617 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 12:53:36.618 +05:30 [INF] Response status: 200
+2026-01-20 12:53:36.625 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 1001.1124ms
+2026-01-20 12:54:38.908 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/vendors - application/json 263
+2026-01-20 12:54:38.911 +05:30 [INF] CORS policy execution failed.
+2026-01-20 12:54:38.911 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 12:54:38.915 +05:30 [INF] Processing request: POST /api/vendors
+2026-01-20 12:54:38.915 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 12:54:38.920 +05:30 [INF] Route matched with {action = "Create", controller = "Vendors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AssetManagement.Application.DTOs.CreateVendorDto) on controller AssetManagement.API.Controllers.VendorsController (AssetManagement.API).
+2026-01-20 12:54:39.180 +05:30 [ERR] Failed executing DbCommand (28ms) [Parameters=[@p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?', @p8='?', @p9='?', @p10='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Vendors" ("Address", "ContactPerson", "CreatedAt", "EmailAddress", "GSTNumber", "IsActive", "IsVerified", "PANNumber", "PhoneNumber", "Status", "VendorName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+RETURNING "VendorId";
+2026-01-20 12:54:39.223 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'AssetManagement.Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Status" of relation "Vendors" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Status" of relation "Vendors" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Vendors
+    ColumnName: Status
+    File: execMain.c
+    Line: 2215
+    Routine: ReportNotNullViolationError
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Status" of relation "Vendors" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Status" of relation "Vendors" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Vendors
+    ColumnName: Status
+    File: execMain.c
+    Line: 2215
+    Routine: ReportNotNullViolationError
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-01-20 12:54:39.467 +05:30 [INF] Executed action AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API) in 546.2477ms
+2026-01-20 12:54:39.469 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 12:54:39.725 +05:30 [ERR] An unhandled exception occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Status" of relation "Vendors" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Status" of relation "Vendors" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Vendors
+    ColumnName: Status
+    File: execMain.c
+    Line: 2215
+    Routine: ReportNotNullViolationError
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at AssetManagement.Application.Services.VendorRepository.AddAsync(Vendors vendor) in C:\AssetManagements\AssetManagement.Application\Services\VendorRepository.cs:line 32
+   at AssetManagement.API.Controllers.VendorsController.Create(CreateVendorDto dto) in C:\AssetManagements\AssetManagement.API\Controllers\VendorsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AssetManagement.API.Middleware.ValidationMiddleware.InvokeAsync(HttpContext context) in C:\AssetManagements\AssetManagement.API\Middleware\ValidationMiddleware.cs:line 23
+   at AssetManagement.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\AssetManagements\AssetManagement.API\Middleware\ExceptionHandlingMiddleware.cs:line 22
+2026-01-20 12:54:39.745 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/vendors - 500 null application/json 836.8852ms
+2026-01-20 12:55:20.043 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/vendors - application/json 263
+2026-01-20 12:55:20.044 +05:30 [INF] CORS policy execution failed.
+2026-01-20 12:55:20.044 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 12:55:20.044 +05:30 [INF] Processing request: POST /api/vendors
+2026-01-20 12:55:20.044 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 12:55:20.045 +05:30 [INF] Route matched with {action = "Create", controller = "Vendors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AssetManagement.Application.DTOs.CreateVendorDto) on controller AssetManagement.API.Controllers.VendorsController (AssetManagement.API).
+2026-01-20 12:56:09.035 +05:30 [ERR] Failed executing DbCommand (70ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?', @p9='?', @p10='?', @p11='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Vendors" ("VendorId", "Address", "ContactPerson", "CreatedAt", "EmailAddress", "GSTNumber", "IsActive", "IsVerified", "PANNumber", "PhoneNumber", "Status", "VendorName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2026-01-20 12:56:09.039 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'AssetManagement.Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Status" of relation "Vendors" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Status" of relation "Vendors" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Vendors
+    ColumnName: Status
+    File: execMain.c
+    Line: 2215
+    Routine: ReportNotNullViolationError
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Status" of relation "Vendors" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Status" of relation "Vendors" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Vendors
+    ColumnName: Status
+    File: execMain.c
+    Line: 2215
+    Routine: ReportNotNullViolationError
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-01-20 12:56:09.199 +05:30 [INF] Executed action AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API) in 49154.3063ms
+2026-01-20 12:56:09.200 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 12:56:09.343 +05:30 [ERR] An unhandled exception occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "Status" of relation "Vendors" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Status" of relation "Vendors" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Vendors
+    ColumnName: Status
+    File: execMain.c
+    Line: 2215
+    Routine: ReportNotNullViolationError
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at AssetManagement.Application.Services.VendorRepository.AddAsync(Vendors vendor) in C:\AssetManagements\AssetManagement.Application\Services\VendorRepository.cs:line 32
+   at AssetManagement.API.Controllers.VendorsController.Create(CreateVendorDto dto) in C:\AssetManagements\AssetManagement.API\Controllers\VendorsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AssetManagement.API.Middleware.ValidationMiddleware.InvokeAsync(HttpContext context) in C:\AssetManagements\AssetManagement.API\Middleware\ValidationMiddleware.cs:line 23
+   at AssetManagement.API.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\AssetManagements\AssetManagement.API\Middleware\ExceptionHandlingMiddleware.cs:line 22
+2026-01-20 12:56:09.349 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/vendors - 500 null application/json 49305.9615ms
+2026-01-20 12:59:59.298 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/vendors - application/json 263
+2026-01-20 12:59:59.299 +05:30 [INF] CORS policy execution failed.
+2026-01-20 12:59:59.299 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 12:59:59.299 +05:30 [INF] Processing request: POST /api/vendors
+2026-01-20 12:59:59.299 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 12:59:59.300 +05:30 [INF] Route matched with {action = "Create", controller = "Vendors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AssetManagement.Application.DTOs.CreateVendorDto) on controller AssetManagement.API.Controllers.VendorsController (AssetManagement.API).
+2026-01-20 13:00:41.638 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?', @p8='?', @p9='?', @p10='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Vendors" ("Address", "ContactPerson", "CreatedAt", "EmailAddress", "GSTNumber", "IsActive", "IsVerified", "PANNumber", "PhoneNumber", "Status", "VendorName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+RETURNING "VendorId";
+2026-01-20 13:01:09.948 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'AssetManagement.Domain.Entities.Vendors'.
+2026-01-20 13:01:09.976 +05:30 [INF] Executed action AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API) in 70676.0879ms
+2026-01-20 13:01:09.976 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 13:01:09.976 +05:30 [INF] Response status: 201
+2026-01-20 13:01:09.976 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/vendors - 201 null application/json; charset=utf-8 70685.0924ms
+2026-01-20 13:03:03.220 +05:30 [INF] Executed DbCommand (95ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 13:03:03.293 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 13:03:03.560 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 13:03:03.693 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 13:03:03.694 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 13:03:03.713 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 13:03:03.757 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 13:03:03.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 13:03:04.033 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 13:03:04.033 +05:30 [INF] Hosting environment: Development
+2026-01-20 13:03:04.033 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 13:03:04.288 +05:30 [INF] Processing request: GET /
+2026-01-20 13:03:04.289 +05:30 [INF] Response status: 404
+2026-01-20 13:03:04.321 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 367.8008ms
+2026-01-20 13:03:04.337 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 13:03:21.861 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 13:03:22.018 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 157.7263ms
+2026-01-20 13:03:22.114 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 13:03:22.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 13:03:22.145 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 13:03:22.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 8.289ms
+2026-01-20 13:03:22.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 39.7879ms
+2026-01-20 13:03:22.204 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.6195ms
+2026-01-20 13:03:22.305 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 13:03:22.371 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.2826ms
+2026-01-20 13:03:59.145 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 13:03:59.160 +05:30 [INF] CORS policy execution failed.
+2026-01-20 13:03:59.160 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 13:03:59.163 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 13:03:59.164 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 13:03:59.193 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 13:03:59.921 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 13:04:00.082 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 13:04:00.093 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 13:04:00.118 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 920.5338ms
+2026-01-20 13:04:00.119 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 13:04:00.119 +05:30 [INF] Response status: 200
+2026-01-20 13:04:00.130 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 985.4169ms
+2026-01-20 13:04:20.307 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/api/vendors - null null
+2026-01-20 13:04:20.315 +05:30 [INF] Processing request: GET /api/vendors
+2026-01-20 13:04:20.315 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.VendorsController.GetAll (AssetManagement.API)'
+2026-01-20 13:04:20.322 +05:30 [INF] Route matched with {action = "GetAll", controller = "Vendors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller AssetManagement.API.Controllers.VendorsController (AssetManagement.API).
+2026-01-20 13:04:20.416 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."VendorId", v."Address", v."ContactPerson", v."CreatedAt", v."EmailAddress", v."GSTNumber", v."IsActive", v."IsVerified", v."PANNumber", v."PhoneNumber", v."Status", v."VendorName"
+FROM "Vendors" AS v
+2026-01-20 13:04:20.423 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AssetManagement.Domain.Entities.Vendors, AssetManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 13:04:20.427 +05:30 [INF] Executed action AssetManagement.API.Controllers.VendorsController.GetAll (AssetManagement.API) in 104.6476ms
+2026-01-20 13:04:20.427 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.VendorsController.GetAll (AssetManagement.API)'
+2026-01-20 13:04:20.427 +05:30 [INF] Response status: 200
+2026-01-20 13:04:20.428 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/api/vendors - 200 null application/json; charset=utf-8 120.7849ms
+2026-01-20 13:05:10.309 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/vendors - application/json 260
+2026-01-20 13:05:10.310 +05:30 [INF] CORS policy execution failed.
+2026-01-20 13:05:10.310 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 13:05:10.310 +05:30 [INF] Processing request: POST /api/vendors
+2026-01-20 13:05:10.310 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 13:05:10.317 +05:30 [INF] Route matched with {action = "Create", controller = "Vendors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AssetManagement.Application.DTOs.CreateVendorDto) on controller AssetManagement.API.Controllers.VendorsController (AssetManagement.API).
+2026-01-20 13:05:13.083 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?', @p8='?', @p9='?', @p10='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Vendors" ("Address", "ContactPerson", "CreatedAt", "EmailAddress", "GSTNumber", "IsActive", "IsVerified", "PANNumber", "PhoneNumber", "Status", "VendorName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+RETURNING "VendorId";
+2026-01-20 13:05:13.110 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'AssetManagement.Domain.Entities.Vendors'.
+2026-01-20 13:05:13.131 +05:30 [INF] Executed action AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API) in 2814.2427ms
+2026-01-20 13:05:13.131 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.VendorsController.Create (AssetManagement.API)'
+2026-01-20 13:05:13.132 +05:30 [INF] Response status: 201
+2026-01-20 13:05:13.132 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/vendors - 201 null application/json; charset=utf-8 2823.0562ms
+2026-01-20 14:41:51.528 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 225
+2026-01-20 14:41:51.681 +05:30 [INF] CORS policy execution failed.
+2026-01-20 14:41:51.683 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 14:41:51.828 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-01-20 14:41:51.855 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-20 14:41:51.882 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 401 null null 461.347ms
+2026-01-20 14:50:44.351 +05:30 [INF] Executed DbCommand (141ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 14:50:44.503 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 14:50:45.024 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 14:50:45.234 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 14:50:45.235 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 14:50:45.262 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 14:50:45.343 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 14:50:45.704 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 14:50:45.816 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 14:50:45.816 +05:30 [INF] Hosting environment: Development
+2026-01-20 14:50:45.817 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 14:50:46.170 +05:30 [INF] Processing request: GET /
+2026-01-20 14:50:46.171 +05:30 [INF] Response status: 404
+2026-01-20 14:50:46.221 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 535.3872ms
+2026-01-20 14:50:46.227 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 14:50:49.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 14:50:50.118 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 135.4521ms
+2026-01-20 14:50:50.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 14:50:50.160 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 14:50:50.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 19.3029ms
+2026-01-20 14:50:50.187 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 28.0195ms
+2026-01-20 14:50:50.225 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 14:50:50.299 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.8202ms
+2026-01-20 14:50:50.364 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 14:50:50.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.0824ms
+2026-01-20 14:51:15.380 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 14:51:15.397 +05:30 [INF] CORS policy execution failed.
+2026-01-20 14:51:15.397 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 14:51:15.399 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 14:51:15.401 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 14:51:15.430 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 14:51:16.130 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 14:51:16.290 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 14:51:16.300 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 14:51:16.321 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 885.3349ms
+2026-01-20 14:51:16.323 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 14:51:16.324 +05:30 [INF] Response status: 200
+2026-01-20 14:51:16.335 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 958.7716ms
+2026-01-20 14:51:54.116 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 197
+2026-01-20 14:51:54.120 +05:30 [INF] CORS policy execution failed.
+2026-01-20 14:51:54.122 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 14:51:54.136 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager|IT)
+2026-01-20 14:51:54.141 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-20 14:51:54.146 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 401 null null 30.4945ms
+2026-01-20 14:59:40.070 +05:30 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 14:59:40.162 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 14:59:40.311 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 14:59:40.494 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 14:59:40.495 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 14:59:40.514 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 14:59:40.555 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 14:59:40.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 14:59:40.874 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 14:59:40.874 +05:30 [INF] Hosting environment: Development
+2026-01-20 14:59:40.874 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 14:59:41.110 +05:30 [INF] Processing request: GET /
+2026-01-20 14:59:41.111 +05:30 [INF] Response status: 404
+2026-01-20 14:59:41.150 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 327.8538ms
+2026-01-20 14:59:41.153 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 15:00:09.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 15:00:09.895 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 139.4458ms
+2026-01-20 15:00:09.941 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 15:00:09.941 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 15:00:09.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 29.2776ms
+2026-01-20 15:00:09.979 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 15:00:09.983 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 43.8874ms
+2026-01-20 15:00:10.042 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.545ms
+2026-01-20 15:00:10.127 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 15:00:10.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.9559ms
+2026-01-20 15:00:27.190 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 15:00:27.210 +05:30 [INF] CORS policy execution failed.
+2026-01-20 15:00:27.210 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 15:00:27.213 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 15:00:27.215 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 15:00:27.256 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 15:00:28.046 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 15:00:28.229 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 15:00:28.240 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 15:00:28.264 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 1003.1335ms
+2026-01-20 15:00:28.264 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 15:00:28.265 +05:30 [INF] Response status: 200
+2026-01-20 15:00:28.273 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 1083.1505ms
+2026-01-20 15:00:51.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/api/Assets/debug/auth - null null
+2026-01-20 15:00:51.765 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-01-20 15:00:51.769 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-20 15:00:51.770 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/api/Assets/debug/auth - 401 null null 26.8011ms
+2026-01-20 15:01:26.557 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 212
+2026-01-20 15:01:26.558 +05:30 [INF] CORS policy execution failed.
+2026-01-20 15:01:26.558 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 15:01:26.562 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager|IT Support)
+2026-01-20 15:01:26.563 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-20 15:01:26.564 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 401 null null 7.6107ms
+2026-01-20 15:20:41.284 +05:30 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:20:41.366 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:20:41.498 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:20:41.622 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:20:41.623 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:20:41.638 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 15:20:41.682 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 15:20:41.981 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 15:20:42.025 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 15:20:42.025 +05:30 [INF] Hosting environment: Development
+2026-01-20 15:20:42.026 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 15:20:42.359 +05:30 [INF] Processing request: GET /
+2026-01-20 15:20:42.361 +05:30 [INF] Response status: 404
+2026-01-20 15:20:42.490 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 521.7185ms
+2026-01-20 15:20:42.495 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 15:20:55.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 15:20:55.981 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 133.1964ms
+2026-01-20 15:20:56.076 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 15:20:56.084 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 15:20:56.127 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 42.4593ms
+2026-01-20 15:20:56.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 47.2001ms
+2026-01-20 15:20:56.131 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 15:20:56.192 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.15ms
+2026-01-20 15:20:56.332 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 15:20:56.422 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.1005ms
+2026-01-20 15:21:15.593 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 15:21:15.599 +05:30 [INF] CORS policy execution failed.
+2026-01-20 15:21:15.600 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 15:21:15.602 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 15:21:15.605 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 15:21:15.636 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 15:21:16.337 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 15:21:16.505 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 15:21:16.513 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 15:21:16.536 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 893.415ms
+2026-01-20 15:21:16.537 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 15:21:16.537 +05:30 [INF] Response status: 200
+2026-01-20 15:21:16.544 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 951.2046ms
+2026-01-20 15:21:49.786 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 197
+2026-01-20 15:21:49.795 +05:30 [INF] CORS policy execution failed.
+2026-01-20 15:21:49.797 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 15:21:49.808 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-01-20 15:21:49.814 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-20 15:21:49.816 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 401 null null 30.019ms
+2026-01-20 15:38:47.436 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:38:47.536 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:38:48.225 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:38:48.953 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:38:48.954 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:38:48.971 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 15:38:49.031 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 15:38:49.365 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 15:38:49.464 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 15:38:49.464 +05:30 [INF] Hosting environment: Development
+2026-01-20 15:38:49.464 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 15:38:49.746 +05:30 [INF] Processing request: GET /
+2026-01-20 15:38:49.747 +05:30 [INF] Response status: 404
+2026-01-20 15:38:49.788 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 431.0576ms
+2026-01-20 15:38:49.798 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 15:39:14.150 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 15:39:14.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 826.2422ms
+2026-01-20 15:39:15.273 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 15:39:15.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 4.8551ms
+2026-01-20 15:39:15.319 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 15:39:15.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 4.0569ms
+2026-01-20 15:39:15.454 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 15:39:15.879 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 424.759ms
+2026-01-20 15:39:15.961 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 15:39:16.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.1662ms
+2026-01-20 15:39:57.800 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 15:39:57.815 +05:30 [INF] CORS policy execution failed.
+2026-01-20 15:39:57.816 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 15:39:57.818 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 15:39:57.820 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 15:39:57.850 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 15:39:58.566 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 15:39:58.743 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 15:39:58.754 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 15:39:58.774 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 919.1725ms
+2026-01-20 15:39:58.776 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 15:39:58.776 +05:30 [INF] Response status: 200
+2026-01-20 15:39:58.784 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 984.0639ms
+2026-01-20 15:40:33.913 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 197
+2026-01-20 15:40:33.917 +05:30 [INF] CORS policy execution failed.
+2026-01-20 15:40:33.917 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 15:40:33.920 +05:30 [INF] Processing request: POST /api/Assets/register
+2026-01-20 15:40:33.920 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AssetsController.RegisterAsset (AssetManagement.API)'
+2026-01-20 15:40:33.925 +05:30 [INF] Route matched with {action = "RegisterAsset", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.AssetResponseDto]]] RegisterAsset(AssetManagement.Application.DTOs.AssetRegistrationDto) on controller AssetManagement.API.Controllers.AssetsController (AssetManagement.API).
+2026-01-20 15:40:33.945 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-20 15:40:33.965 +05:30 [INF] Executed action AssetManagement.API.Controllers.AssetsController.RegisterAsset (AssetManagement.API) in 39.7663ms
+2026-01-20 15:40:33.966 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AssetsController.RegisterAsset (AssetManagement.API)'
+2026-01-20 15:40:33.966 +05:30 [INF] Response status: 400
+2026-01-20 15:40:33.966 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 400 null application/problem+json; charset=utf-8 53.2457ms
+2026-01-20 15:41:15.627 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 200
+2026-01-20 15:41:15.628 +05:30 [INF] CORS policy execution failed.
+2026-01-20 15:41:15.628 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 15:41:15.628 +05:30 [INF] Processing request: POST /api/Assets/register
+2026-01-20 15:41:15.629 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AssetsController.RegisterAsset (AssetManagement.API)'
+2026-01-20 15:41:15.629 +05:30 [INF] Route matched with {action = "RegisterAsset", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.AssetResponseDto]]] RegisterAsset(AssetManagement.Application.DTOs.AssetRegistrationDto) on controller AssetManagement.API.Controllers.AssetsController (AssetManagement.API).
+2026-01-20 15:41:15.638 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-20 15:41:15.639 +05:30 [INF] Executed action AssetManagement.API.Controllers.AssetsController.RegisterAsset (AssetManagement.API) in 10.0294ms
+2026-01-20 15:41:15.639 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AssetsController.RegisterAsset (AssetManagement.API)'
+2026-01-20 15:41:15.640 +05:30 [INF] Response status: 400
+2026-01-20 15:41:15.640 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 400 null application/problem+json; charset=utf-8 12.9582ms
+2026-01-20 15:42:19.125 +05:30 [INF] Executed DbCommand (1,349ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE assetdb;
+2026-01-20 15:42:19.589 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2026-01-20 15:42:19.765 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:42:19.770 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:42:19.786 +05:30 [INF] Applying migration '20260112064225_InitialCreated'.
+2026-01-20 15:42:19.873 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Brands" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(100) NOT NULL,
+    "Description" character varying(200),
+    "IsActive" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "UpdatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Brands" PRIMARY KEY ("Id")
+);
+2026-01-20 15:42:19.880 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Categories" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(100) NOT NULL,
+    "Description" character varying(200),
+    "IsActive" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "UpdatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Categories" PRIMARY KEY ("Id")
+);
+2026-01-20 15:42:19.888 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Locations" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(100) NOT NULL,
+    "Address" character varying(200),
+    "City" character varying(50),
+    "State" character varying(50),
+    "PostalCode" character varying(20),
+    "Country" character varying(50),
+    "IsActive" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "UpdatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Locations" PRIMARY KEY ("Id")
+);
+2026-01-20 15:42:19.895 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Roles" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(50) NOT NULL,
+    "Description" character varying(200),
+    "IsActive" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "UpdatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Roles" PRIMARY KEY ("Id")
+);
+2026-01-20 15:42:19.912 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "FullName" character varying(100) NOT NULL,
+    "Email" character varying(100) NOT NULL,
+    "EmploymentId" character varying(20) NOT NULL,
+    "MobileNumber" character varying(15),
+    "PasswordHash" text NOT NULL,
+    "Department" character varying(50) NOT NULL,
+    "SubDepartment" character varying(50) NOT NULL,
+    "RoleId" integer NOT NULL,
+    "IsActive" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "UpdatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Employees" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Employees_Roles_RoleId" FOREIGN KEY ("RoleId") REFERENCES "Roles" ("Id") ON DELETE RESTRICT
+);
+2026-01-20 15:42:19.926 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Assets" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" character varying(100) NOT NULL,
+    "SerialNumber" character varying(100) NOT NULL,
+    "Remarks" character varying(500),
+    "CategoryId" integer NOT NULL,
+    "BrandId" integer NOT NULL,
+    "LocationId" integer NOT NULL,
+    "CreatedByUserId" integer NOT NULL,
+    "AssignedToUserId" integer,
+    "Status" integer NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "UpdatedAt" timestamp with time zone NOT NULL,
+    "IsActive" boolean NOT NULL,
+    CONSTRAINT "PK_Assets" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Assets_Brands_BrandId" FOREIGN KEY ("BrandId") REFERENCES "Brands" ("Id") ON DELETE RESTRICT,
+    CONSTRAINT "FK_Assets_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("Id") ON DELETE RESTRICT,
+    CONSTRAINT "FK_Assets_Employees_AssignedToUserId" FOREIGN KEY ("AssignedToUserId") REFERENCES "Employees" ("Id") ON DELETE SET NULL,
+    CONSTRAINT "FK_Assets_Employees_CreatedByUserId" FOREIGN KEY ("CreatedByUserId") REFERENCES "Employees" ("Id") ON DELETE RESTRICT,
+    CONSTRAINT "FK_Assets_Locations_LocationId" FOREIGN KEY ("LocationId") REFERENCES "Locations" ("Id") ON DELETE RESTRICT
+);
+2026-01-20 15:42:19.999 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Brands" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (1, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Dell Technologies', TRUE, 'Dell', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Brands" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (2, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Hewlett-Packard', TRUE, 'HP', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Brands" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (3, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Lenovo Group', TRUE, 'Lenovo', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Brands" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (4, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Apple Inc.', TRUE, 'Apple', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Brands" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (5, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Samsung Electronics', TRUE, 'Samsung', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Brands" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (6, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Cisco Systems', TRUE, 'Cisco', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+2026-01-20 15:42:20.002 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Categories" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (1, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Desktop and laptop computers', TRUE, 'Computers', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Categories" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (2, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Smartphones and tablets', TRUE, 'Mobile Devices', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Categories" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (3, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Routers, switches, and network devices', TRUE, 'Network Equipment', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Categories" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (4, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Printers and scanners', TRUE, 'Printers', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Categories" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (5, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Office furniture and equipment', TRUE, 'Furniture', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+2026-01-20 15:42:20.005 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Locations" ("Id", "Address", "City", "Country", "CreatedAt", "IsActive", "Name", "PostalCode", "State", "UpdatedAt")
+VALUES (1, '123 Main Street', 'New York', 'USA', TIMESTAMPTZ '2024-01-01T00:00:00Z', TRUE, 'Head Office', '10001', 'NY', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Locations" ("Id", "Address", "City", "Country", "CreatedAt", "IsActive", "Name", "PostalCode", "State", "UpdatedAt")
+VALUES (2, '456 Business District', 'Mumbai', 'India', TIMESTAMPTZ '2024-01-01T00:00:00Z', TRUE, 'Branch Office - Mumbai', '400001', 'Maharashtra', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Locations" ("Id", "Address", "City", "Country", "CreatedAt", "IsActive", "Name", "PostalCode", "State", "UpdatedAt")
+VALUES (3, '789 Corporate Plaza', 'Delhi', 'India', TIMESTAMPTZ '2024-01-01T00:00:00Z', TRUE, 'Branch Office - Delhi', '110001', 'Delhi', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Locations" ("Id", "Address", "City", "Country", "CreatedAt", "IsActive", "Name", "PostalCode", "State", "UpdatedAt")
+VALUES (4, '321 Industrial Area', 'Pune', 'India', TIMESTAMPTZ '2024-01-01T00:00:00Z', TRUE, 'Warehouse', '411001', 'Maharashtra', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+2026-01-20 15:42:23.017 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Roles" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (1, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'System Administrator with full access', TRUE, 'Admin', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Roles" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (2, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Department Manager with management access', TRUE, 'Manager', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Roles" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (3, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'Regular Employee with basic access', TRUE, 'Employee', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+INSERT INTO "Roles" ("Id", "CreatedAt", "Description", "IsActive", "Name", "UpdatedAt")
+VALUES (4, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'IT Support staff with technical access', TRUE, 'IT Support', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+2026-01-20 15:42:23.060 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("Id", "CreatedAt", "Department", "Email", "EmploymentId", "FullName", "IsActive", "MobileNumber", "PasswordHash", "RoleId", "SubDepartment", "UpdatedAt")
+VALUES (1, TIMESTAMPTZ '2024-01-01T00:00:00Z', 'IT Department', 'admin@assetmanagement.com', 'ADMIN001', 'System Administrator', TRUE, '+1234567890', '6G94qKPK8LYNjnTllCqm2G3BUM08AzOK7yW30tfjrMc=', 1, 'System Administration', TIMESTAMPTZ '2024-01-01T00:00:00Z');
+2026-01-20 15:42:23.070 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Assets_AssignedToUserId" ON "Assets" ("AssignedToUserId");
+2026-01-20 15:42:23.073 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Assets_BrandId" ON "Assets" ("BrandId");
+2026-01-20 15:42:23.077 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Assets_CategoryId" ON "Assets" ("CategoryId");
+2026-01-20 15:42:23.081 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Assets_CreatedByUserId" ON "Assets" ("CreatedByUserId");
+2026-01-20 15:42:23.084 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Assets_LocationId" ON "Assets" ("LocationId");
+2026-01-20 15:42:23.089 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Assets_SerialNumber" ON "Assets" ("SerialNumber");
+2026-01-20 15:42:23.093 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Brands_Name" ON "Brands" ("Name");
+2026-01-20 15:42:23.097 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Categories_Name" ON "Categories" ("Name");
+2026-01-20 15:42:23.101 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Employees_Email" ON "Employees" ("Email");
+2026-01-20 15:42:23.106 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Employees_EmploymentId" ON "Employees" ("EmploymentId");
+2026-01-20 15:42:23.114 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Employees_RoleId" ON "Employees" ("RoleId");
+2026-01-20 15:42:23.118 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Locations_Name" ON "Locations" ("Name");
+2026-01-20 15:42:23.122 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Roles_Name" ON "Roles" ("Name");
+2026-01-20 15:42:23.134 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT setval(
+    pg_get_serial_sequence('"Brands"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Brands") + 1,
+        nextval(pg_get_serial_sequence('"Brands"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"Categories"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Categories") + 1,
+        nextval(pg_get_serial_sequence('"Categories"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"Locations"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Locations") + 1,
+        nextval(pg_get_serial_sequence('"Locations"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"Roles"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Roles") + 1,
+        nextval(pg_get_serial_sequence('"Roles"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"Employees"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Employees") + 1,
+        nextval(pg_get_serial_sequence('"Employees"', 'Id'))),
+    false);
+2026-01-20 15:42:24.343 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260112064225_InitialCreated', '8.0.8');
+2026-01-20 15:42:24.357 +05:30 [INF] Applying migration '20260112084713_Init'.
+2026-01-20 15:42:24.370 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260112084713_Init', '8.0.8');
+2026-01-20 15:42:24.371 +05:30 [INF] Applying migration '20260113080340_AddPurchaseOrderEntity'.
+2026-01-20 15:42:24.402 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PurchaseOrders" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "PR_ID" character varying(50) NOT NULL,
+    "RequesterName" character varying(100) NOT NULL,
+    "ProcessName" character varying(100) NOT NULL,
+    "CategoryId" integer NOT NULL,
+    "ITCategory" character varying(100),
+    "AssetName" character varying(100) NOT NULL,
+    "LocationId" integer NOT NULL,
+    "Quantity" integer NOT NULL,
+    "Status" character varying(50) NOT NULL,
+    "OrderDateTime" timestamp with time zone NOT NULL,
+    "IsActive" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "UpdatedAt" timestamp with time zone NOT NULL,
+    "CreatedByUserId" integer NOT NULL,
+    "UpdatedByUserId" integer,
+    CONSTRAINT "PK_PurchaseOrders" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_PurchaseOrders_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("Id") ON DELETE RESTRICT,
+    CONSTRAINT "FK_PurchaseOrders_Employees_CreatedByUserId" FOREIGN KEY ("CreatedByUserId") REFERENCES "Employees" ("Id") ON DELETE RESTRICT,
+    CONSTRAINT "FK_PurchaseOrders_Employees_UpdatedByUserId" FOREIGN KEY ("UpdatedByUserId") REFERENCES "Employees" ("Id") ON DELETE SET NULL,
+    CONSTRAINT "FK_PurchaseOrders_Locations_LocationId" FOREIGN KEY ("LocationId") REFERENCES "Locations" ("Id") ON DELETE RESTRICT
+);
+2026-01-20 15:42:24.406 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PurchaseOrders_CategoryId" ON "PurchaseOrders" ("CategoryId");
+2026-01-20 15:42:24.409 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PurchaseOrders_CreatedByUserId" ON "PurchaseOrders" ("CreatedByUserId");
+2026-01-20 15:42:24.412 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PurchaseOrders_LocationId" ON "PurchaseOrders" ("LocationId");
+2026-01-20 15:42:24.415 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_PurchaseOrders_PR_ID" ON "PurchaseOrders" ("PR_ID");
+2026-01-20 15:42:24.418 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PurchaseOrders_UpdatedByUserId" ON "PurchaseOrders" ("UpdatedByUserId");
+2026-01-20 15:42:24.418 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260113080340_AddPurchaseOrderEntity', '8.0.8');
+2026-01-20 15:42:24.419 +05:30 [INF] Applying migration '20260113081532_UpdatePurchaseOrderToUseStringFields'.
+2026-01-20 15:42:25.852 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PurchaseOrders" DROP CONSTRAINT "FK_PurchaseOrders_Categories_CategoryId";
+2026-01-20 15:42:25.853 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PurchaseOrders" DROP CONSTRAINT "FK_PurchaseOrders_Locations_LocationId";
+2026-01-20 15:42:25.855 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP INDEX "IX_PurchaseOrders_CategoryId";
+2026-01-20 15:42:25.856 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP INDEX "IX_PurchaseOrders_LocationId";
+2026-01-20 15:42:25.858 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PurchaseOrders" DROP COLUMN "CategoryId";
+2026-01-20 15:42:25.858 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PurchaseOrders" DROP COLUMN "LocationId";
+2026-01-20 15:42:25.885 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PurchaseOrders" ADD "Category" character varying(100) NOT NULL DEFAULT '';
+2026-01-20 15:42:25.886 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PurchaseOrders" ADD "Location" character varying(100) NOT NULL DEFAULT '';
+2026-01-20 15:42:25.886 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260113081532_UpdatePurchaseOrderToUseStringFields', '8.0.8');
+2026-01-20 15:42:25.890 +05:30 [INF] Applying migration '20260115120600_updateassets'.
+2026-01-20 15:42:25.908 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" DROP CONSTRAINT "FK_Assets_Brands_BrandId";
+2026-01-20 15:42:25.909 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" DROP CONSTRAINT "FK_Assets_Categories_CategoryId";
+2026-01-20 15:42:25.913 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" DROP CONSTRAINT "FK_Assets_Locations_LocationId";
+2026-01-20 15:42:25.914 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ALTER COLUMN "LocationId" DROP NOT NULL;
+2026-01-20 15:42:25.914 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ALTER COLUMN "CategoryId" DROP NOT NULL;
+2026-01-20 15:42:25.915 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ALTER COLUMN "BrandId" DROP NOT NULL;
+2026-01-20 15:42:25.915 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD "Brand" character varying(100) NOT NULL DEFAULT '';
+2026-01-20 15:42:25.916 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD "Category" text;
+2026-01-20 15:42:25.916 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD "Location" text;
+2026-01-20 15:42:25.922 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD CONSTRAINT "FK_Assets_Brands_BrandId" FOREIGN KEY ("BrandId") REFERENCES "Brands" ("Id");
+2026-01-20 15:42:25.925 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD CONSTRAINT "FK_Assets_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("Id");
+2026-01-20 15:42:25.928 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Assets" ADD CONSTRAINT "FK_Assets_Locations_LocationId" FOREIGN KEY ("LocationId") REFERENCES "Locations" ("Id");
+2026-01-20 15:42:25.929 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260115120600_updateassets', '8.0.8');
+2026-01-20 15:42:25.930 +05:30 [INF] Applying migration '20260120071106_addvendors'.
+2026-01-20 15:42:25.957 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Vendors" (
+    "VendorId" integer GENERATED BY DEFAULT AS IDENTITY,
+    "VendorName" text NOT NULL,
+    "EmailAddress" text NOT NULL,
+    "PhoneNumber" text NOT NULL,
+    "Address" text NOT NULL,
+    "GSTNumber" text NOT NULL,
+    "PANNumber" text NOT NULL,
+    "IsActive" boolean NOT NULL,
+    "ContactPerson" text NOT NULL,
+    "IsVerified" boolean NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Vendors" PRIMARY KEY ("VendorId")
+);
+2026-01-20 15:42:28.237 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Vendors_GSTNumber" ON "Vendors" ("GSTNumber");
+2026-01-20 15:42:28.242 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Vendors_PANNumber" ON "Vendors" ("PANNumber");
+2026-01-20 15:42:28.243 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260120071106_addvendors', '8.0.8');
+2026-01-20 15:42:28.244 +05:30 [INF] Applying migration '20260120072142_addvendorstatus'.
+2026-01-20 15:42:28.268 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Vendors" ADD "Status" text NOT NULL DEFAULT '';
+2026-01-20 15:42:28.269 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260120072142_addvendorstatus', '8.0.8');
+2026-01-20 15:53:36.441 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:53:36.526 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:53:36.662 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:53:36.793 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:53:36.794 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:53:36.809 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 15:53:36.853 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 15:53:37.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 15:53:37.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 15:53:37.199 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 15:53:37.200 +05:30 [INF] Hosting environment: Development
+2026-01-20 15:53:37.200 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 15:53:37.490 +05:30 [INF] Processing request: GET /
+2026-01-20 15:53:37.491 +05:30 [INF] Response status: 404
+2026-01-20 15:53:37.540 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 402.9959ms
+2026-01-20 15:53:37.544 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 15:53:37.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 434.4442ms
+2026-01-20 15:53:37.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 15:53:37.685 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 15:53:37.688 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 8.1761ms
+2026-01-20 15:53:37.709 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 24.0045ms
+2026-01-20 15:53:37.737 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 15:53:37.809 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.5189ms
+2026-01-20 15:53:37.905 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 15:53:38.010 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.4389ms
+2026-01-20 15:57:15.102 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:57:15.182 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:57:15.316 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:57:15.450 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 15:57:15.451 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 15:57:15.470 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 15:57:15.503 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 15:57:15.700 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 15:57:15.760 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 15:57:15.760 +05:30 [INF] Hosting environment: Development
+2026-01-20 15:57:15.760 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 15:57:15.977 +05:30 [INF] Processing request: GET /
+2026-01-20 15:57:15.978 +05:30 [INF] Response status: 404
+2026-01-20 15:57:16.013 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 321.3733ms
+2026-01-20 15:57:16.044 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 15:57:23.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 15:57:23.870 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 144.2707ms
+2026-01-20 15:57:23.911 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 15:57:23.974 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 15:57:23.979 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 67.3917ms
+2026-01-20 15:57:23.980 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 15:57:24.005 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 30.5283ms
+2026-01-20 15:57:24.078 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.656ms
+2026-01-20 15:57:24.141 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 15:57:24.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.7321ms
+2026-01-20 15:57:51.177 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 15:57:51.220 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.2268ms
+2026-01-20 15:57:51.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/favicon.ico - null null
+2026-01-20 15:57:51.384 +05:30 [INF] Processing request: GET /favicon.ico
+2026-01-20 15:57:51.384 +05:30 [INF] Response status: 404
+2026-01-20 15:57:51.387 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/favicon.ico - 404 null null 19.4871ms
+2026-01-20 15:57:51.388 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/favicon.ico, Response status code: 404
+2026-01-20 16:00:03.988 +05:30 [INF] Executed DbCommand (401ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:00:04.087 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:00:04.872 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:00:05.496 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:00:05.497 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:00:05.514 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 16:00:05.556 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 16:00:05.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 16:00:05.944 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 16:00:05.944 +05:30 [INF] Hosting environment: Development
+2026-01-20 16:00:05.944 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 16:00:06.582 +05:30 [INF] Processing request: GET /
+2026-01-20 16:00:06.583 +05:30 [INF] Response status: 404
+2026-01-20 16:00:06.619 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 785.7371ms
+2026-01-20 16:00:06.628 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 16:00:07.552 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 16:00:07.755 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 203.8672ms
+2026-01-20 16:00:07.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 16:00:07.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 16:00:07.782 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 12.444ms
+2026-01-20 16:00:07.785 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 7.3791ms
+2026-01-20 16:00:07.833 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 16:00:07.897 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.6425ms
+2026-01-20 16:00:07.970 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 16:00:08.015 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-20 16:00:08.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 59.6933ms
+2026-01-20 16:00:11.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 16:00:11.043 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 5.1044ms
+2026-01-20 16:00:11.095 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 16:00:11.095 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 16:00:11.097 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 16:00:11.097 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 1.1564ms
+2026-01-20 16:00:11.102 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 1.5294ms
+2026-01-20 16:00:11.117 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.103ms
+2026-01-20 16:00:11.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 16:00:11.182 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/favicon-32x32.png - null null
+2026-01-20 16:00:11.189 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-20 16:00:11.200 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 32.5508ms
+2026-01-20 16:00:11.219 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-01-20 16:00:11.219 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/favicon-32x32.png - 200 628 image/png 37.6375ms
+2026-01-20 16:00:12.123 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 16:00:12.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 4.6071ms
+2026-01-20 16:00:12.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 16:00:12.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 16:00:12.172 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 16:00:12.173 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 1.2035ms
+2026-01-20 16:00:12.174 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 0.8833ms
+2026-01-20 16:00:12.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.3338ms
+2026-01-20 16:00:12.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 16:00:12.278 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AssetManagement.API.Controllers.PurchaseOrdersController.GetPurchaseOrder (AssetManagement.API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-20 16:00:12.287 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 30.7992ms
+2026-01-20 16:00:42.614 +05:30 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:00:42.687 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:00:42.827 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:00:42.953 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:00:42.954 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:00:42.971 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 16:00:43.012 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 16:00:43.232 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 16:00:43.307 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 16:00:43.308 +05:30 [INF] Hosting environment: Development
+2026-01-20 16:00:43.308 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 16:00:43.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 16:00:43.586 +05:30 [INF] Processing request: GET /
+2026-01-20 16:00:43.587 +05:30 [INF] Response status: 404
+2026-01-20 16:00:43.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 401.8498ms
+2026-01-20 16:00:43.623 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 16:00:43.731 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 267.2018ms
+2026-01-20 16:00:43.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 16:00:43.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 16:00:43.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 16:00:43.805 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 15.7112ms
+2026-01-20 16:00:43.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 19.4012ms
+2026-01-20 16:00:43.863 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.8229ms
+2026-01-20 16:00:43.958 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 16:00:44.006 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.0071ms
+2026-01-20 16:43:15.184 +05:30 [INF] Executed DbCommand (318ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:43:15.453 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:43:15.801 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:43:15.945 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:43:15.946 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:43:15.974 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 16:43:16.100 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 16:43:16.742 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 16:43:16.807 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 16:43:16.808 +05:30 [INF] Hosting environment: Development
+2026-01-20 16:43:16.808 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 16:43:17.408 +05:30 [INF] Processing request: GET /
+2026-01-20 16:43:17.409 +05:30 [INF] Response status: 404
+2026-01-20 16:43:17.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 815.5373ms
+2026-01-20 16:43:17.558 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 16:43:32.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 16:43:33.013 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 144.7385ms
+2026-01-20 16:43:33.438 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 16:43:33.438 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 16:43:33.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 5.1721ms
+2026-01-20 16:43:33.447 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 5.9187ms
+2026-01-20 16:43:33.489 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 16:43:33.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.3854ms
+2026-01-20 16:43:33.681 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 16:43:33.792 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.9338ms
+2026-01-20 16:47:49.298 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:47:49.383 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:47:49.531 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:47:49.678 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-20 16:47:49.680 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-20 16:47:49.709 +05:30 [INF] No migrations were applied. The database is already up to date.
+2026-01-20 16:47:49.746 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-20 16:47:49.999 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2026-01-20 16:47:49.999 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.html - null null
+2026-01-20 16:47:50.069 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-20 16:47:50.069 +05:30 [INF] Hosting environment: Development
+2026-01-20 16:47:50.069 +05:30 [INF] Content root path: C:\AssetManagements\AssetManagement.API
+2026-01-20 16:47:50.337 +05:30 [INF] Processing request: GET /
+2026-01-20 16:47:50.339 +05:30 [INF] Response status: 404
+2026-01-20 16:47:50.380 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null null 389.6246ms
+2026-01-20 16:47:50.383 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44364/, Response status code: 404
+2026-01-20 16:47:50.439 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.html - 200 null text/html;charset=utf-8 446.1811ms
+2026-01-20 16:47:50.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-20 16:47:50.490 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/index.js - null null
+2026-01-20 16:47:50.530 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 44.4471ms
+2026-01-20 16:47:50.540 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/index.js - 200 null application/javascript;charset=utf-8 50.2405ms
+2026-01-20 16:47:50.549 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/_vs/browserLink - null null
+2026-01-20 16:47:50.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.0309ms
+2026-01-20 16:47:50.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - null null
+2026-01-20 16:47:50.820 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44364/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.6492ms
+2026-01-20 16:48:40.082 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Auth/login - application/json 69
+2026-01-20 16:48:40.110 +05:30 [INF] CORS policy execution failed.
+2026-01-20 16:48:40.111 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 16:48:40.117 +05:30 [INF] Processing request: POST /api/Auth/login
+2026-01-20 16:48:40.120 +05:30 [INF] Executing endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 16:48:40.174 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AssetManagement.Application.DTOs.ApiResponseDto`1[AssetManagement.Application.DTOs.LoginResponseDto]]] Login(AssetManagement.Application.DTOs.LoginDto) on controller AssetManagement.API.Controllers.AuthController (AssetManagement.API).
+2026-01-20 16:48:41.087 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."Department", e."Email", e."EmploymentId", e."FullName", e."IsActive", e."MobileNumber", e."PasswordHash", e."RoleId", e."SubDepartment", e."UpdatedAt", r."Id", r."CreatedAt", r."Description", r."IsActive", r."Name", r."UpdatedAt"
+FROM "Employees" AS e
+INNER JOIN "Roles" AS r ON e."RoleId" = r."Id"
+WHERE lower(e."Email") = @__ToLower_0
+LIMIT 1
+2026-01-20 16:48:41.301 +05:30 [INF] User logged in successfully: admin@assetmanagement.com
+2026-01-20 16:48:41.313 +05:30 [INF] Executing OkObjectResult, writing value of type 'AssetManagement.Application.DTOs.ApiResponseDto`1[[AssetManagement.Application.DTOs.LoginResponseDto, AssetManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-20 16:48:41.339 +05:30 [INF] Executed action AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API) in 1159.3297ms
+2026-01-20 16:48:41.340 +05:30 [INF] Executed endpoint 'AssetManagement.API.Controllers.AuthController.Login (AssetManagement.API)'
+2026-01-20 16:48:41.341 +05:30 [INF] Response status: 200
+2026-01-20 16:48:41.352 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Auth/login - 200 null application/json; charset=utf-8 1271.6664ms
+2026-01-20 16:49:22.752 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44364/api/Assets/register - application/json 197
+2026-01-20 16:49:22.756 +05:30 [INF] CORS policy execution failed.
+2026-01-20 16:49:22.757 +05:30 [INF] Request origin https://localhost:44364 does not have permission to access the resource.
+2026-01-20 16:49:22.779 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager|IT Support)
+2026-01-20 16:49:22.785 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-20 16:49:22.787 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44364/api/Assets/register - 401 null null 34.9797ms
